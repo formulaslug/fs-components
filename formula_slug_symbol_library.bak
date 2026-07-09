@@ -19534,7 +19534,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "formula_slug_footprint_library:MODULE_STLINK-V3MODS"
+		(property "Footprint" "FS_4_Global_Footprint_Library:MODULE_STLINK-V3MODS"
 			(at 7.62 0 0)
 			(effects
 				(font
