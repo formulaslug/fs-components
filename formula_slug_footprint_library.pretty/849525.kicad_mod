@@ -279,7 +279,7 @@
 		(uuid "4cb9ccd8-1e89-43e2-aae1-6b24be879c13")
 	)
 	(embedded_fonts no)
-	(model "${FS_4_SCHEMATICS}/Libraries/3d_models/84952-5.stp"
+	(model "../3d_models/84952-5.stp"
 		(offset
 			(xyz 0 -2.170000044 1.320000033)
 		)

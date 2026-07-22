@@ -352,7 +352,7 @@
 		(uuid "e2cca0e1-8d01-4ba4-89ad-839361ef7d45")
 	)
 	(embedded_fonts no)
-	(model "${FS__4_SCHEMATICS}/Libraries/3d_models/Relay_SPDT_ZETTLER-AZ2150.stp"
+	(model "../3d_models/Relay_SPDT_ZETTLER-AZ2150.stp"
 		(offset
 			(xyz -15.5 -6.5 0)
 		)

@@ -220,7 +220,7 @@
 		(uuid "0b36486e-d242-4307-80ea-29144291b2aa")
 	)
 	(embedded_fonts no)
-	(model "${FS__4_SCHEMATICS}/Libraries/3d_models/PV36W103C01B00.STEP"
+	(model "../3d_models/PV36W103C01B00.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

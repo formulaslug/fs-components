@@ -1,7 +1,7 @@
 (footprint "US2H_TOS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DIODE SCHOTTKY 40V 2A US2H")
 	(tags "CUHS20S40_H3F ")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "736cde98-2874-45bd-91ce-10520efaf7ee")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -407,13 +395,13 @@
 	(pad "1" smd rect
 		(at -0.6477 0)
 		(size 1.8034 1.0922)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "26020db1-7e38-4f6a-9c69-8f9096174ba9")
 	)
 	(pad "2" smd rect
 		(at 1.1938 0)
 		(size 0.7112 0.8636)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "583c2ac6-c9a6-46f7-bb85-0b2a04a557a6")
 	)
 	(zone
@@ -434,6 +422,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -444,7 +436,8 @@
 			)
 		)
 	)
-	(model "${FS_3_SCHEMATICS}/Libraries/3D Models/US2H_z90.stp"
+	(embedded_fonts no)
+	(model "../3d_models/US2H_z90.stp"
 		(offset
 			(xyz 0 0 0)
 		)

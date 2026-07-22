@@ -274,7 +274,7 @@
 		(uuid "e06779bb-18ee-4572-827c-edb6024a9735")
 	)
 	(embedded_fonts no)
-	(model "${FS_4_SCHEMATICS}/Libraries/3d_models/G6DN_1A.step"
+	(model "../3d_models/G6DN_1A.step"
 		(offset
 			(xyz 0 -17.78 0)
 		)

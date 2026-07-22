@@ -413,7 +413,7 @@
 		(uuid "2a1ab009-093c-478f-b90a-d0d89c30ded9")
 	)
 	(embedded_fonts no)
-	(model "/Users/ericzhang/Downloads/1054311204.stp"
+	(model "../3d_models/1054311204.stp"
 		(offset
 			(xyz 0 -1.5 5.5)
 		)

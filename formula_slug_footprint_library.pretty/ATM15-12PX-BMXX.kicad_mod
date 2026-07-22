@@ -225,7 +225,7 @@
 		(uuid "2522fbca-ca28-4a48-a200-c3976f0b7b6e")
 	)
 	(embedded_fonts no)
-	(model "${FS_4_SCHEMATICS}/Libraries/3d_models/ATM15-12PX-BMXX.stp"
+	(model "../3d_models/ATM15-12PX-BMXX.stp"
 		(offset
 			(xyz 0 0 26.5)
 		)

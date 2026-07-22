@@ -320,7 +320,7 @@
 		(uuid "810b9333-00a7-44a3-8fca-b0afd14b4e73")
 	)
 	(embedded_fonts no)
-	(model "${FS__4_SCHEMATICS}/Libraries/3d_models/EW60-1A3-CL12D04,00000.stp"
+	(model "../3d_models/EW60-1A3-CL12D04,00000.stp"
 		(offset
 			(xyz -9.8 6.35 30.919998)
 		)
