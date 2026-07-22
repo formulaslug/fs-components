@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CON_2005280050_MOL"
+		(property "Footprint" "formula_slug_footprint_library:CON_2005280050_MOL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52,14 +52,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "2005280050"
@@ -963,7 +955,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "2005280090:CON_2005280090_MOL"
+		(property "Footprint" "formula_slug_footprint_library:CON_2005280090_MOL"
 			(at 5.334 9.652 0)
 			(effects
 				(font
@@ -1660,7 +1652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CON_5019510550"
+		(property "Footprint" "formula_slug_footprint_library:CON_5019510550"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1687,14 +1679,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "5019510550"
@@ -2382,7 +2366,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "84952-5:TE_84952-5"
+		(property "Footprint" "formula_slug_footprint_library:TE_84952-5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2542,8 +2526,8 @@
 		)
 		(symbol "84952-5_0_0"
 			(rectangle
-				(start -5.08 -10.16)
-				(end 5.08 10.16)
+				(start -5.08 10.16)
+				(end 5.08 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2705,7 +2689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:SW_A6H-4101_OMR"
+		(property "Footprint" "formula_slug_footprint_library:SW_A6H-4101_OMR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3306,622 +3290,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ATS13-26PA-BM21"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "J"
-			(at 0.508 1.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "ATS13-26PA-BM21_1_1"
-			(rectangle
-				(start 0 0)
-				(end 2.54 -15.24)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -1.27 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -8.89 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -11.43 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -13.97 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ATS13-26PA-BM21_2_1"
-			(rectangle
-				(start 0 0)
-				(end 2.54 -5.08)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -1.27 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ATS13-26PA-BM21_3_1"
-			(rectangle
-				(start 0 0)
-				(end 2.54 -7.62)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -1.27 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ATS13-26PA-BM21_4_1"
-			(rectangle
-				(start 0 0)
-				(end 2.54 -7.62)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -1.27 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ATS13-26PA-BM21_5_1"
-			(rectangle
-				(start 0 0)
-				(end 2.54 -10.16)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -1.27 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -8.89 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ATS13-26PA-BM21_6_1"
-			(rectangle
-				(start 0 0)
-				(end 2.54 -10.16)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -1.27 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -8.89 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ATS13-26PA-BM21_7_1"
-			(rectangle
-				(start 0 0)
-				(end 2.54 -10.16)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -2.54 -1.27 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -8.89 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "Adafruit_E336755_10DoF_IMU"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3942,7 +3310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:Adafruit_E336755_10DoF_IMU"
+		(property "Footprint" "formula_slug_footprint_library:Adafruit_E336755_10DoF_IMU"
 			(at -0.762 -21.59 0)
 			(effects
 				(font
@@ -4675,7 +4043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-28_CEV"
+		(property "Footprint" "formula_slug_footprint_library:BNO086_LGA-28_5.2x3.8mm_P0.5mm"
 			(at -25.4 15.24 0)
 			(effects
 				(font
@@ -6857,7 +6225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_4_Footprint_Library:CD4532BPWR"
+		(property "Footprint" "formula_slug_footprint_library:CD4532BPWR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7765,7 +7133,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TE_DTM1312PC12PDR008"
+		(property "Footprint" "formula_slug_footprint_library:TE_DTM1312PC12PDR008"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7802,14 +7170,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "DTM1312PC12PDR008_0_0"
@@ -8849,7 +8209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EW601A3CL12D0400000"
+		(property "Footprint" "formula_slug_footprint_library:EW601A3CL12D0400000"
 			(at 26.67 2.54 0)
 			(effects
 				(font
@@ -9140,7 +8500,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "HM2113ZNLT"
+		(property "Footprint" "formula_slug_footprint_library:HM2113ZNLT"
 			(at 26.67 -94.92 0)
 			(effects
 				(font
@@ -9364,7 +8724,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "FS_4_Footprint_Library:KC14A10001NPS"
+		(property "Footprint" "formula_slug_footprint_library:KC14A10001NPS"
 			(at 29.21 -94.92 0)
 			(effects
 				(font
@@ -9597,7 +8957,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "FS_4_Footprint_Library:Keystone_985"
+		(property "Footprint" "formula_slug_footprint_library:Keystone_985"
 			(at 19.05 -94.92 0)
 			(effects
 				(font
@@ -9927,343 +9287,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LM2907M_NOPB"
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
-			(at 33.02 10.16 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LM2907M/NOPB"
-			(at 8.636 -5.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 11.43 -1.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 6.858 -5.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -5.08 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "LM2907M/NOPB"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "M14A_TEX M14A_TEX-M M14A_TEX-L"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LM2907M_NOPB_1_1"
-			(rectangle
-				(start 0 22.86)
-				(end 17.78 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -3.81 21.59 0)
-				(length 3.81)
-				(name "TACH-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -3.81 19.05 0)
-				(length 3.81)
-				(name "TACH+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 13.97 0)
-				(length 3.81)
-				(name "CP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 11.43 0)
-				(length 3.81)
-				(name "CP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -3.81 6.35 0)
-				(length 3.81)
-				(name "IN-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 3.81 0)
-				(length 3.81)
-				(name "IN+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -3.81 -1.27 0)
-				(length 3.81)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 20.32 180)
-				(length 3.81)
-				(name "COL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 16.51 180)
-				(length 3.81)
-				(name "EMIT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 21.59 11.43 180)
-				(length 3.81)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 21.59 8.89 180)
-				(length 3.81)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 21.59 6.35 180)
-				(length 3.81)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 21.59 3.81 180)
-				(length 3.81)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 21.59 -1.27 180)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "LTC6810IG-2_3ZZTRPBF"
 		(pin_names
 			(offset 1.016)
@@ -10291,7 +9314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LTC6810IG-2_3ZZTRPBF:SOP50P780X200-44N"
+		(property "Footprint" "formula_slug_footprint_library:SOP50P780X200-44N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10310,7 +9333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LTC6810-2 BMS Chip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11200,7 +10223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:LTC6811-2"
+		(property "Footprint" "formula_slug_footprint_library:LTC6811-2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11220,7 +10243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BMS Chip"
+		(property "Description" "LTC6811-2 BMS Chip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12599,7 +11622,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+		(property "Footprint" "formula_slug_footprint_library:NUCLEO-F446RE"
 			(at 0.254 50.546 0)
 			(effects
 				(font
@@ -14088,7 +13111,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:NUCLEO-L432KC"
+		(property "Footprint" "formula_slug_footprint_library:NUCLEO-L432KC"
 			(at -45.72 5.08 0)
 			(effects
 				(font
@@ -15037,7 +14060,7 @@
 				)
 			)
 		)
-		(property "Value" "PST360G2"
+		(property "Value" "PST360G2-2AA-C0123-ERA040-05K"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -15063,7 +14086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APPS/BPPS Sensor. Configurator site: https://www.piher.net/products/contactless-position-sensors/rotary-position-sensors/rotary-hall-effect-position-sensors/pst-360/"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15081,7 +14104,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "PST360G2-1A-C0000-ERA360-05K"
+		(property "MFG PN" "PST360G2-2AA-C0123-ERA040-05K"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15090,7 +14113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/amphenol-piher-sensing-systems/PST360G2-1A-C0000-ERA360-05K/9555849"
+		(property "Digi URL" "https://www.digikey.com/en/products/detail/amphenol-piher-sensing-systems/PST360G2-2AA-C0123-ERA040-05K/16028709"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15099,7 +14122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "1993-1011-ND"
+		(property "Digi PN" "1993-PST360G2-2AA-C0123-ERA040-05K-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15254,7 +14277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN_90687_SEE"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -15880,7 +14903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "N14"
+		(property "Footprint" "formula_slug_footprint_library:N14"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20206,7 +19229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO-8_STM"
+		(property "Footprint" "formula_slug_footprint_library:SO-8_STM"
 			(at 1.27 0 0)
 			(effects
 				(font
@@ -20763,1070 +19786,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "TL3302AF180QJ"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0.254)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "SW"
-			(at 7.62 3.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TL3302AF180QJ"
-			(at 5.334 7.366 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SW_TL3302AF180QJ_EWI"
-			(at 3.81 10.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3302.pdf"
-			(at 3.302 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "TL3302AF180QJ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SW_TL3302AF180QJ_EWI SW_TL3302AF180QJ_EWI-M SW_TL3302AF180QJ_EWI-L"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TL3302AF180QJ_0_1"
-			(circle
-				(center 5.588 -1.27)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 0) (xy 7.62 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 9.652 -1.27)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 0) (xy 5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at 12.7 -1.27 180)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TL3302AF180QJ_1_1"
-			(pin passive line
-				(at 2.54 -1.27 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "TLP3122AE"
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLP3122AE"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "1FS_2_Global_Footprint_Library:OptoCoupler 6-SOP"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TLP3122AE"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "OptoCoupler"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "TLP3122A(E"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "4pin SO6_TOS 4pin SO6_TOS-M 4pin SO6_TOS-L"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TLP3122AE_0_1"
-			(polyline
-				(pts
-					(xy 0 0) (xy 15.24 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -12.7) (xy 0 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.016 -5.842) (xy 1.016 -5.842) (xy 2.54 -5.842) (xy 1.778 -6.858) (xy 1.016 -5.842)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.016 -6.858) (xy 2.54 -6.858)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 -2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 -2.54) (xy 1.778 -5.842)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 -10.16) (xy 0 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 -10.16) (xy 1.778 -6.858)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.572 -6.35) (xy 3.048 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.572 -6.35) (xy 4.572 -6.35) (xy 4.064 -5.334) (xy 3.556 -6.096) (xy 4.572 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.572 -7.874) (xy 3.048 -6.604)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.572 -7.874) (xy 4.572 -7.874) (xy 4.064 -6.858) (xy 3.556 -7.62) (xy 4.572 -7.874)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.334 -3.81) (xy 5.334 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.858 -2.794) (xy 6.858 -4.826)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.858 -3.81) (xy 5.334 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.858 -7.874) (xy 6.858 -9.906)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.858 -8.89) (xy 5.334 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -2.032) (xy 8.382 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -2.54) (xy 15.24 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -3.302) (xy 8.382 -4.318)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -3.81) (xy 8.382 -3.81) (xy 9.398 -3.302) (xy 9.398 -4.318) (xy 8.382 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -4.572) (xy 8.382 -5.588)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -5.08) (xy 13.462 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -7.112) (xy 8.382 -8.128)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -7.62) (xy 13.462 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -8.382) (xy 8.382 -9.398)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -8.89) (xy 8.382 -8.89) (xy 9.398 -8.382) (xy 9.398 -9.398) (xy 8.382 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -9.652) (xy 8.382 -10.668)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -10.16) (xy 15.24 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.398 -3.81) (xy 10.922 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.398 -8.89) (xy 10.922 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.922 -3.81) (xy 10.922 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 10.922 -5.08)
-				(radius 0.127)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 10.922 -7.62)
-				(radius 0.127)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -3.302) (xy 14.224 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -8.382) (xy 12.7 -8.382) (xy 14.224 -8.382) (xy 13.462 -9.398) (xy 12.7 -8.382)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -9.398) (xy 14.224 -9.398)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.462 -2.54) (xy 13.462 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 13.462 -2.54)
-				(radius 0.127)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.462 -3.302) (xy 13.462 -3.302) (xy 12.7 -4.318) (xy 14.224 -4.318) (xy 13.462 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.462 -4.318) (xy 13.462 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.462 -7.62) (xy 13.462 -8.382)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.462 -9.398) (xy 13.462 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 13.462 -10.16)
-				(radius 0.127)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 0) (xy 15.24 -12.7)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 -12.7) (xy 0 -12.7)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "TLP3122AE_1_1"
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -2.54 180)
-				(length 2.54)
-				(name "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -10.16 180)
-				(length 2.54)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "W25Q40CLSNIG_TR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0.762 1.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q40cl_e_07282017.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPI Controlled Memory Chip"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "W25Q40CLSNIG_TR_1_1"
-			(rectangle
-				(start 0 0)
-				(end 10.16 -10.16)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input inverted
-				(at -2.54 -1.27 0)
-				(length 2.54)
-				(name "CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name "DO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name "WP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -8.89 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 -1.27 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -3.81 180)
-				(length 2.54)
-				(name "Hold"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -6.35 180)
-				(length 2.54)
-				(name "CLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -8.89 180)
-				(length 2.54)
-				(name "DI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
