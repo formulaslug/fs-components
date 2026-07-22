@@ -1,7 +1,7 @@
 (footprint "FORMULA SLUG TITLE"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Cosmetic Logo With Title Text")
 	(tags "logo, title")
@@ -9,7 +9,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d00f3273-0572-48b2-9dd3-cdddc55b80e3")
+		(uuid "9672f187-25d8-44fe-ae91-3529c150e8a9")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a8fd8118-305d-417d-8e0c-24249f57a612")
+		(uuid "a9ec4f7f-1ba0-4550-8daa-7646e5a70f2e")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8a91ee67-fc7b-4fb6-a340-4abe679e49d6")
+		(uuid "b05b7e4b-f21d-4e9e-a957-be25b0fc7687")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0f0e4988-7795-4e86-8e0a-c841a7823ac7")
+		(uuid "efaf2ecb-ea68-4bbb-8d84-36c283b570c1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -2.978538 -1.18802) (xy -2.983976 -1.1638) (xy -2.997969 -1.146607) (xy -3.029051 -1.135011)
@@ -90,7 +91,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "53fe95a1-ff0e-425c-a45b-3a0471c06393")
+		(uuid "5f558d63-9b0e-47b1-bb58-aa9eab72a076")
 	)
 	(fp_poly
 		(pts
@@ -130,27 +131,13 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "507d84d7-b076-4eb6-b968-206e61821ee4")
-	)
-	(fp_text user "Architect: ${COMMENT4}"
-		(at -2.032 1.524 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "17723c15-7657-48af-a05c-e471b898dcc2")
-		(effects
-			(font
-				(size 0.9906 0.9906)
-				(thickness 0.1524)
-				(bold yes)
-			)
-			(justify left)
-		)
+		(uuid "b4dd347b-fd09-4148-b7af-0a1dc0f7fd15")
 	)
 	(fp_text user "${COMPANY}"
 		(at -2.032 -1.524 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bb7ba1f5-5704-463a-a9b9-79cd35ca937d")
+		(uuid "aeedddc8-dd15-4bb2-8bad-71c0c6834e52")
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -164,7 +151,21 @@
 		(at -2.032 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "dafb34aa-624b-4665-84fc-8875ec08bf38")
+		(uuid "88fd692e-a181-4a51-8fa0-7f0371575df4")
+		(effects
+			(font
+				(size 0.9906 0.9906)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "Architect: ${COMMENT4}"
+		(at -2.032 1.524 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ee1719e-f1f7-4af9-8b63-759a1dcd509b")
 		(effects
 			(font
 				(size 0.9906 0.9906)
