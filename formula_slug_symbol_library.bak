@@ -21048,7 +21048,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-16N"
+		(property "Footprint" "formula_slug_footprint_library:SOP65P640X120-16N"
 			(at 24.13 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
