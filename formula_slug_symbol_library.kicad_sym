@@ -15592,10 +15592,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 41.91 10.16 0)
+			(at 0 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15603,10 +15602,9 @@
 			)
 		)
 		(property "Value" "PTPS259830LNRGER"
-			(at 41.91 7.62 0)
+			(at 0 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15673,7 +15671,7 @@
 		(symbol "PTPS259830LNRGER_1_1"
 			(polyline
 				(pts
-					(xy 30.48 5.08) (xy 30.48 -43.18)
+					(xy -11.43 24.13) (xy -11.43 -24.13)
 				)
 				(stroke
 					(width 0.127)
@@ -15685,7 +15683,7 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 -43.18) (xy 53.34 -43.18)
+					(xy -11.43 -24.13) (xy 11.43 -24.13)
 				)
 				(stroke
 					(width 0.127)
@@ -15697,7 +15695,7 @@
 			)
 			(polyline
 				(pts
-					(xy 53.34 5.08) (xy 30.48 5.08)
+					(xy 11.43 24.13) (xy -11.43 24.13)
 				)
 				(stroke
 					(width 0.127)
@@ -15709,7 +15707,7 @@
 			)
 			(polyline
 				(pts
-					(xy 53.34 -43.18) (xy 53.34 5.08)
+					(xy 11.43 -24.13) (xy 11.43 24.13)
 				)
 				(stroke
 					(width 0.127)
@@ -15720,7 +15718,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -5.08 0)
+				(at -19.05 13.97 0)
 				(length 7.62)
 				(name "IN"
 					(effects
@@ -15738,7 +15736,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -7.62 0)
+				(at -19.05 11.43 0)
 				(length 7.62)
 				(name "IN"
 					(effects
@@ -15756,7 +15754,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -10.16 0)
+				(at -19.05 8.89 0)
 				(length 7.62)
 				(name "IN"
 					(effects
@@ -15774,7 +15772,7 @@
 				)
 			)
 			(pin power_out line
-				(at 22.86 -26.67 0)
+				(at -19.05 -7.62 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -15792,7 +15790,7 @@
 				)
 			)
 			(pin power_out line
-				(at 22.86 -29.21 0)
+				(at -19.05 -10.16 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -15810,7 +15808,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 0 0)
+				(at -19.05 19.05 0)
 				(length 7.62)
 				(name "EN/UVLO"
 					(effects
@@ -15828,7 +15826,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -7.62 180)
+				(at 19.05 11.43 180)
 				(length 7.62)
 				(name "ITIMER"
 					(effects
@@ -15846,7 +15844,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -2.54 180)
+				(at 19.05 16.51 180)
 				(length 7.62)
 				(name "ILIM"
 					(effects
@@ -15864,7 +15862,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -5.08 180)
+				(at 19.05 13.97 180)
 				(length 7.62)
 				(name "IMON"
 					(effects
@@ -15882,7 +15880,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -38.1 180)
+				(at 19.05 -19.05 180)
 				(length 7.62)
 				(name "RETRY_DLY"
 					(effects
@@ -15900,7 +15898,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -10.16 180)
+				(at 19.05 8.89 180)
 				(length 7.62)
 				(name "NRETRY"
 					(effects
@@ -15918,7 +15916,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -20.32 0)
+				(at -19.05 -1.27 0)
 				(length 7.62)
 				(name "OVLO"
 					(effects
@@ -15936,7 +15934,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -35.56 180)
+				(at 19.05 -16.51 180)
 				(length 7.62)
 				(name "PG"
 					(effects
@@ -15954,7 +15952,7 @@
 				)
 			)
 			(pin power_out line
-				(at 22.86 -31.75 0)
+				(at -19.05 -12.7 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -15972,7 +15970,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 0 180)
+				(at 19.05 19.05 180)
 				(length 7.62)
 				(name "DVDT/_BGATE"
 					(effects
@@ -15990,7 +15988,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -12.7 0)
+				(at -19.05 6.35 0)
 				(length 7.62)
 				(name "IN"
 					(effects
@@ -16008,7 +16006,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -12.7 180)
+				(at 19.05 6.35 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -16026,7 +16024,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -15.24 180)
+				(at 19.05 3.81 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -16044,7 +16042,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -17.78 180)
+				(at 19.05 1.27 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -16062,7 +16060,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -20.32 180)
+				(at 19.05 -1.27 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -16080,7 +16078,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -22.86 180)
+				(at 19.05 -3.81 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -16098,7 +16096,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -25.4 180)
+				(at 19.05 -6.35 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -16116,7 +16114,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -27.94 180)
+				(at 19.05 -8.89 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -16134,7 +16132,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -30.48 180)
+				(at 19.05 -11.43 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -16152,7 +16150,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -15.24 0)
+				(at -19.05 3.81 0)
 				(length 7.62)
 				(name "IN"
 					(effects
@@ -16170,7 +16168,7 @@
 				)
 			)
 			(pin power_out line
-				(at 22.86 -34.29 0)
+				(at -19.05 -15.24 0)
 				(length 7.62)
 				(name "GND"
 					(effects
