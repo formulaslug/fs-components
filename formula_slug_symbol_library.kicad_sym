@@ -16005,7 +16005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RELAY_SFS_PAN"
+		(property "Footprint" "formula_slug_footprint_library:SFS2-DC12V"
 			(at 26.67 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16051,7 +16051,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "RELAY_SFS_PAN"
+		(property "ki_fp_filters" "SFS2-DC12V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
