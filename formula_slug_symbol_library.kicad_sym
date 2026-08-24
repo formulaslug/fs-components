@@ -15986,7 +15986,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "K"
-			(at 48.26 -22.86 0)
+			(at 21.082 4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15996,7 +15996,7 @@
 			)
 		)
 		(property "Value" "SFS2-DC12V"
-			(at 48.26 -27.94 0)
+			(at 27.686 1.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16006,7 +16006,7 @@
 			)
 		)
 		(property "Footprint" "formula_slug_footprint_library:SFS2-DC12V"
-			(at 26.67 -16.51 0)
+			(at -1.524 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -16018,7 +16018,7 @@
 			)
 		)
 		(property "Datasheet" "https://na.industrial.panasonic.com/products/relays-contactors/mechanical-power-relays/lineup/safety/series/2714/model/2720"
-			(at 26.67 -16.51 0)
+			(at 9.906 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -16029,8 +16029,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Safety Relay 4PST-2NO/2NC (2 Form A, 2 Form B) 12VDC Coil Through Hole"
+			(at -0.508 21.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -16040,8 +16040,41 @@
 				)
 			)
 		)
-		(property "ki_keywords" "MFG, MFMFG PN, Digi PN, Digi URL"
-			(at 0 0 0)
+		(property "Digikey Part Number" "255-3094-ND"
+			(at -0.762 15.494 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/SFS2-DC12V/2639428"
+			(at -0.254 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electric Works"
+			(at -0.762 17.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SFS2-DC12V"
+			(at -0.762 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -16063,10 +16096,20 @@
 			)
 		)
 		(symbol "SFS2-DC12V_0_1"
-			(polyline
-				(pts
-					(xy 31.75 -53.34) (xy 48.26 -53.34)
+			(rectangle
+				(start -20.32 5.08)
+				(end 19.05 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -18.415 1.905)
+				(end -12.065 -1.905)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -16077,31 +16120,7 @@
 			)
 			(polyline
 				(pts
-					(xy 31.75 -64.77) (xy 46.99 -64.77)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 31.75 -74.93) (xy 46.99 -74.93)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 31.75 -85.09) (xy 46.99 -85.09)
+					(xy -17.78 -1.905) (xy -12.7 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -16113,7 +16132,31 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -33.02) (xy 38.1 -35.56)
+					(xy -15.24 5.08) (xy -15.24 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -15.24 -5.08) (xy -15.24 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.065 0) (xy -11.43 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16125,31 +16168,7 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -35.56) (xy 33.02 -35.56)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 38.1 -33.02)
-				(mid 40.64 -30.4911)
-				(end 43.18 -33.02)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 43.18 -33.02) (xy 43.18 -35.56)
+					(xy -10.795 0) (xy -10.16 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16161,31 +16180,7 @@
 			)
 			(polyline
 				(pts
-					(xy 45.085 -77.47) (xy 48.895 -72.39)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 43.18 -33.02)
-				(mid 45.72 -30.4911)
-				(end 48.26 -33.02)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 45.72 -67.31) (xy 50.165 -60.96)
+					(xy -9.525 0) (xy -8.89 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16197,7 +16192,7 @@
 			)
 			(polyline
 				(pts
-					(xy 45.72 -87.63) (xy 50.165 -81.28)
+					(xy -8.255 0) (xy -7.62 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16209,7 +16204,19 @@
 			)
 			(polyline
 				(pts
-					(xy 46.355 -55.88) (xy 50.165 -50.8)
+					(xy -7.62 5.08) (xy -7.62 2.54) (xy -6.985 3.175) (xy -7.62 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 0) (xy -6.35 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16221,7 +16228,7 @@
 			)
 			(polyline
 				(pts
-					(xy 46.99 -74.93) (xy 64.77 -74.93)
+					(xy -5.715 0) (xy -5.08 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16233,7 +16240,31 @@
 			)
 			(polyline
 				(pts
-					(xy 48.26 -33.02) (xy 48.26 -35.56)
+					(xy -5.08 -2.54) (xy -6.985 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 0) (xy -3.81 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16245,7 +16276,7 @@
 			)
 			(polyline
 				(pts
-					(xy 48.26 -37.465) (xy 48.26 -36.195)
+					(xy -3.175 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16257,7 +16288,7 @@
 			)
 			(polyline
 				(pts
-					(xy 48.26 -38.1) (xy 48.26 -39.37)
+					(xy -1.905 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16269,7 +16300,19 @@
 			)
 			(polyline
 				(pts
-					(xy 48.26 -40.005) (xy 48.26 -41.275)
+					(xy -1.27 5.08) (xy -1.27 2.54) (xy -0.635 3.175) (xy -1.27 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy 0 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16281,7 +16324,7 @@
 			)
 			(polyline
 				(pts
-					(xy 48.26 -41.91) (xy 48.26 -43.18)
+					(xy 0.635 0) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16293,7 +16336,31 @@
 			)
 			(polyline
 				(pts
-					(xy 48.26 -43.815) (xy 48.26 -45.085)
+					(xy 1.27 -2.54) (xy -0.635 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.27 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16305,7 +16372,7 @@
 			)
 			(polyline
 				(pts
-					(xy 48.26 -53.34) (xy 64.77 -53.34)
+					(xy 3.175 0) (xy 3.81 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16317,7 +16384,7 @@
 			)
 			(polyline
 				(pts
-					(xy 49.53 -64.77) (xy 64.77 -64.77)
+					(xy 4.445 0) (xy 5.08 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16329,55 +16396,7 @@
 			)
 			(polyline
 				(pts
-					(xy 49.53 -85.09) (xy 64.77 -85.09)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 48.26 -33.02)
-				(mid 50.8 -30.4911)
-				(end 53.34 -33.02)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 53.34 -33.02) (xy 53.34 -35.56)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 53.34 -33.02)
-				(mid 55.88 -30.4911)
-				(end 58.42 -33.02)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 58.42 -33.02) (xy 58.42 -35.56)
+					(xy 5.715 0) (xy 6.35 0)
 				)
 				(stroke
 					(width 0.254)
@@ -16389,20 +16408,142 @@
 			)
 			(polyline
 				(pts
-					(xy 58.42 -35.56) (xy 63.5 -35.56)
+					(xy 6.985 0) (xy 7.62 0)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 5.715 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 7.62 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 0) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 0) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 5.08) (xy 10.16 2.54) (xy 9.525 3.175) (xy 10.16 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 0) (xy 11.43 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.065 0) (xy 12.7 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.97 -2.54) (xy 12.065 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.97 -2.54) (xy 13.97 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 5.08) (xy 16.51 2.54) (xy 15.875 3.175) (xy 16.51 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SFS2-DC12V_1_1"
 			(pin passive line
-				(at 25.4 -35.56 0)
-				(length 7.62)
-				(name "COIL_A1"
+				(at -15.24 -7.62 90)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16418,9 +16559,9 @@
 				)
 			)
 			(pin passive line
-				(at 71.12 -35.56 180)
-				(length 7.62)
-				(name "COIL_A2"
+				(at -15.24 7.62 270)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16436,9 +16577,9 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -53.34 0)
-				(length 7.62)
-				(name "NC1_A"
+				(at -7.62 7.62 270)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16454,9 +16595,9 @@
 				)
 			)
 			(pin passive line
-				(at 80.01 -53.34 180)
-				(length 7.62)
-				(name "NC1_B"
+				(at -5.08 -7.62 90)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16472,9 +16613,9 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -64.77 0)
-				(length 7.62)
-				(name "NO1_A"
+				(at -1.27 7.62 270)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16490,9 +16631,9 @@
 				)
 			)
 			(pin passive line
-				(at 80.01 -64.77 180)
-				(length 7.62)
-				(name "NO1_B"
+				(at 1.27 -7.62 90)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16508,9 +16649,9 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -74.93 0)
-				(length 7.62)
-				(name "NC2_A"
+				(at 7.62 -7.62 90)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16526,9 +16667,9 @@
 				)
 			)
 			(pin passive line
-				(at 80.01 -74.93 180)
-				(length 7.62)
-				(name "NC2_B"
+				(at 10.16 7.62 270)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16544,9 +16685,9 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -85.09 0)
-				(length 7.62)
-				(name "NO2_A"
+				(at 13.97 -7.62 90)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16562,9 +16703,9 @@
 				)
 			)
 			(pin passive line
-				(at 80.01 -85.09 180)
-				(length 7.62)
-				(name "NO2_B"
+				(at 16.51 7.62 270)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16576,38 +16717,6 @@
 						(font
 							(size 1.27 1.27)
 						)
-					)
-				)
-			)
-		)
-		(symbol "SFS2-DC12V_1_1"
-			(rectangle
-				(start 31.75 -20.32)
-				(end 64.77 -92.71)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start 64.77 -91.44)
-				(end 64.77 -91.44)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "2 NC + 2 NO Forcibly guided"
-				(at 48.514 -46.99 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 				)
 			)
