@@ -15605,7 +15605,6 @@
 			(at 0 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
