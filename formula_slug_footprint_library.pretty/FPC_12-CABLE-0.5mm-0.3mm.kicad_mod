@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -0.8 0)
 		(layer "F.SilkS")
-		(uuid "a7452270-c998-480a-b2dd-4e101c958bc2")
+		(uuid "e31ffc76-3c8f-4f55-a074-d71fe68beb64")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "FPC_12-CABLE-0.5mm-0.3mm"
 		(at 0 -3.9 0)
 		(layer "F.Fab")
-		(uuid "98baafc6-8705-448c-b0f4-e28971a77534")
+		(uuid "513c4a67-cda5-400b-b746-f5e316005881")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "804be9cc-b529-49b0-b94d-2e30bdc0d3a8")
+		(uuid "ae83a1f3-4569-4e5b-89f1-c889aa9742e7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0c302206-a6ae-4da4-8f00-6369791a445a")
+		(uuid "fd1b6427-c840-4d06-9b66-970541d55063")
 		(effects
 			(font
 				(size 1.27 1.27)
