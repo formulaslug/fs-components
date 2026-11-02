@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a7928854-01f0-497d-ad66-54fc2a73406a")
+	(uuid "cff846e3-7cd2-4381-ba9e-558f4d7252ee")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1115,12 +1115,6 @@
 		(uuid "a537365f-0988-4004-84fb-b08b76d270b8")
 	)
 	(junction
-		(at 201.93 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14190105-8dbf-482c-9e85-cc2c3408c587")
-	)
-	(junction
 		(at 168.91 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1137,6 +1131,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c54902e-410b-4ae9-af57-37435e54ad59")
+	)
+	(junction
+		(at 201.93 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f191a2-2cb9-43cb-9659-ed2b933a2272")
 	)
 	(junction
 		(at 185.42 29.21)
@@ -1172,6 +1172,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 31.75) (xy 208.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cface11-2baf-417e-b97d-6b3a0cdf8662")
+	)
+	(wire
+		(pts
+			(xy 201.93 26.67) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3791b08f-2270-47cf-8abe-281c00872272")
+	)
+	(wire
+		(pts
 			(xy 177.8 29.21) (xy 177.8 34.29)
 		)
 		(stroke
@@ -1202,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 208.28 31.75)
+			(xy 200.66 31.75) (xy 201.93 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1222,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 29.21) (xy 201.93 29.21)
+			(xy 186.69 29.21) (xy 208.28 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1262,16 +1282,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 29.21) (xy 208.28 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec4049f-952e-4969-9795-1507f39688da")
-	)
-	(wire
-		(pts
 			(xy 200.66 31.75) (xy 200.66 34.29)
 		)
 		(stroke
@@ -1279,16 +1289,6 @@
 			(type default)
 		)
 		(uuid "b2c70985-7c0d-43da-a7b0-2ffe6b9020eb")
-	)
-	(wire
-		(pts
-			(xy 201.93 26.67) (xy 201.93 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8254469-4fcd-45b3-9152-f79dd8d797f8")
 	)
 	(symbol
 		(lib_id "power:GND")
