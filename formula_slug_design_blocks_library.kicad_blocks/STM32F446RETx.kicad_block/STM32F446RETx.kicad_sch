@@ -4437,7 +4437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "1276-CL10A106KO8NQNCCT-ND"
+		(property "Digikey Part Number" "1276-CL10A106KO8NQNCCT-ND"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -4446,7 +4446,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -4455,7 +4455,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CL10A106KO8NQNC"
+		(property "Manufacturer Part Number" "CL10A106KO8NQNC"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -4464,7 +4464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KO8NQNC/10479038"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KO8NQNC/10479038"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -4608,7 +4608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digikey Part Number" "311-1344-1-ND"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -4617,7 +4617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -4626,7 +4626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -4635,7 +4635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -4778,7 +4778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digikey Part Number" "311-1344-1-ND"
 			(at 109.22 49.53 0)
 			(effects
 				(font
@@ -4787,7 +4787,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 109.22 49.53 0)
 			(effects
 				(font
@@ -4796,7 +4796,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 109.22 49.53 0)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 109.22 49.53 90)
 			(effects
 				(font
@@ -4884,7 +4884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "497-15376-ND"
+		(property "Digikey Part Number" "497-15376-ND"
 			(at 149.86 97.79 0)
 			(effects
 				(font
@@ -4893,7 +4893,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "STM"
+		(property "Manufacturer" "STM"
 			(at 149.86 97.79 0)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "STM32F446RET6"
+		(property "Manufacturer Part Number" "STM32F446RET6"
 			(at 149.86 97.79 0)
 			(effects
 				(font
@@ -4911,7 +4911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/stmicroelectronics/stm32f446ret6/5175962"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/stmicroelectronics/stm32f446ret6/5175962"
 			(at 149.86 97.79 0)
 			(effects
 				(font
@@ -5377,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "1276-6794-1-ND"
+		(property "Digikey Part Number" "1276-6794-1-ND"
 			(at 125.73 123.19 0)
 			(effects
 				(font
@@ -5386,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 125.73 123.19 0)
 			(effects
 				(font
@@ -5395,7 +5395,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CL10A475KL8NRNC"
+		(property "Manufacturer Part Number" "CL10A475KL8NRNC"
 			(at 125.73 123.19 0)
 			(effects
 				(font
@@ -5404,7 +5404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KL8NRNC/5961278"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KL8NRNC/5961278"
 			(at 125.73 123.19 90)
 			(effects
 				(font
@@ -5548,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-10KLDCT-ND"
+		(property "Digikey Part Number" "311-10KLDCT-ND"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -5557,7 +5557,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -5566,7 +5566,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "AC0603FR-0710KL"
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -5575,7 +5575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -5718,7 +5718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digikey Part Number" "311-1344-1-ND"
 			(at 157.48 30.48 0)
 			(effects
 				(font
@@ -5727,7 +5727,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 157.48 30.48 0)
 			(effects
 				(font
@@ -5736,7 +5736,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 157.48 30.48 0)
 			(effects
 				(font
@@ -5745,7 +5745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 157.48 30.48 0)
 			(effects
 				(font
@@ -5823,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digikey Part Number" "311-1344-1-ND"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -5832,7 +5832,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -5841,7 +5841,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -5850,7 +5850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -5926,7 +5926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-3874-1-ND"
+		(property "Digikey Part Number" "311-3874-1-ND"
 			(at 86.36 85.09 0)
 			(effects
 				(font
@@ -5935,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 86.36 85.09 0)
 			(effects
 				(font
@@ -5944,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CC0603DRNPO9BN6R8"
+		(property "Manufacturer Part Number" "CC0603DRNPO9BN6R8"
 			(at 86.36 85.09 0)
 			(effects
 				(font
@@ -5953,7 +5953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
 			(at 86.36 85.09 90)
 			(effects
 				(font
@@ -6031,7 +6031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "1276-CL10B105KB9VPJCCT-ND"
+		(property "Digikey Part Number" "1276-CL10B105KB9VPJCCT-ND"
 			(at 185.42 30.48 0)
 			(effects
 				(font
@@ -6040,7 +6040,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 185.42 30.48 0)
 			(effects
 				(font
@@ -6049,7 +6049,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CL10B105KB9VPJC"
+		(property "Manufacturer Part Number" "CL10B105KB9VPJC"
 			(at 185.42 30.48 0)
 			(effects
 				(font
@@ -6058,7 +6058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/cl10b105kb9vpjc/20498526"
 			(at 185.42 30.48 0)
 			(effects
 				(font
@@ -6134,7 +6134,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "FTSH-107-01-F-DV-K-P-TR"
+		(property "Manufacturer Part Number" "FTSH-107-01-F-DV-K-P-TR"
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -6143,7 +6143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "SAM13170CT-ND"
+		(property "Digikey Part Number" "SAM13170CT-ND"
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -6152,7 +6152,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samtec Inc."
+		(property "Manufacturer" "Samtec Inc."
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -6161,7 +6161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/samtec-inc/FTSH-107-01-F-DV-K-P-TR/6693677"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/samtec-inc/FTSH-107-01-F-DV-K-P-TR/6693677"
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -6275,7 +6275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digikey Part Number" "311-1344-1-ND"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -6284,7 +6284,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -6293,7 +6293,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -6302,7 +6302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -6444,7 +6444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "108-Y97KT23B5NAFPCT-ND"
+		(property "Digikey Part Number" "108-Y97KT23B5NAFPCT-ND"
 			(at 109.22 44.45 0)
 			(effects
 				(font
@@ -6453,7 +6453,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "C&K"
+		(property "Manufacturer" "C&K"
 			(at 109.22 44.45 0)
 			(effects
 				(font
@@ -6462,7 +6462,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "Y97KT23B5NAFP"
+		(property "Manufacturer Part Number" "Y97KT23B5NAFP"
 			(at 109.22 44.45 0)
 			(effects
 				(font
@@ -6471,7 +6471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/c-k/y97kt23b5nafp/9649862"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/c-k/y97kt23b5nafp/9649862"
 			(at 109.22 44.45 0)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "4816-FCM1608KF-601T03CT-ND"
+		(property "Digikey Part Number" "4816-FCM1608KF-601T03CT-ND"
 			(at 173.99 26.67 0)
 			(effects
 				(font
@@ -6622,7 +6622,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "TAI-TECH Advanced Electronics Co., Ltd."
+		(property "Manufacturer" "TAI-TECH Advanced Electronics Co., Ltd."
 			(at 173.99 26.67 0)
 			(effects
 				(font
@@ -6631,7 +6631,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "FCM 1608KF-601T03"
+		(property "Manufacturer Part Number" "FCM 1608KF-601T03"
 			(at 173.99 26.67 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/tai-tech-advanced-electronics-co-ltd/FCM-1608KF-601T03/17835681"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/tai-tech-advanced-electronics-co-ltd/FCM-1608KF-601T03/17835681"
 			(at 173.99 26.67 90)
 			(effects
 				(font
@@ -6716,7 +6716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-3874-1-ND"
+		(property "Digikey Part Number" "311-3874-1-ND"
 			(at 86.36 99.06 0)
 			(effects
 				(font
@@ -6725,7 +6725,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 86.36 99.06 0)
 			(effects
 				(font
@@ -6734,7 +6734,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CC0603DRNPO9BN6R8"
+		(property "Manufacturer Part Number" "CC0603DRNPO9BN6R8"
 			(at 86.36 99.06 0)
 			(effects
 				(font
@@ -6743,7 +6743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603DRNPO9BN6R8/3767594"
 			(at 86.36 99.06 90)
 			(effects
 				(font
@@ -6951,7 +6951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-1344-1-ND"
+		(property "Digikey Part Number" "311-1344-1-ND"
 			(at 137.16 30.48 0)
 			(effects
 				(font
@@ -6960,7 +6960,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 137.16 30.48 0)
 			(effects
 				(font
@@ -6969,7 +6969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CC0603KRX7R9BB104"
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
 			(at 137.16 30.48 0)
 			(effects
 				(font
@@ -6978,7 +6978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 137.16 30.48 0)
 			(effects
 				(font
@@ -7319,7 +7319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "311-10KLDCT-ND"
+		(property "Digikey Part Number" "311-10KLDCT-ND"
 			(at 107.95 66.04 0)
 			(effects
 				(font
@@ -7328,7 +7328,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "Manufacturer" "Yageo"
 			(at 107.95 66.04 0)
 			(effects
 				(font
@@ -7337,7 +7337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "AC0603FR-0710KL"
+		(property "Manufacturer Part Number" "AC0603FR-0710KL"
 			(at 107.95 66.04 0)
 			(effects
 				(font
@@ -7346,7 +7346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-0710KL/2827814"
 			(at 107.95 66.04 0)
 			(effects
 				(font
@@ -7487,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi PN" "XC3063CT-ND"
+		(property "Digikey Part Number" "XC3063CT-ND"
 			(at 100.33 91.44 0)
 			(effects
 				(font
@@ -7496,7 +7496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "ECS"
+		(property "Manufacturer" "ECS"
 			(at 100.33 91.44 0)
 			(effects
 				(font
@@ -7505,7 +7505,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "ECS-240-8-37B-CKY-TR"
+		(property "Manufacturer Part Number" "ECS-240-8-37B-CKY-TR"
 			(at 100.33 91.44 0)
 			(effects
 				(font
@@ -7514,7 +7514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi URL" "https://www.digikey.com/en/products/detail/ecs-inc/ECS-240-8-37B-CKY-TR/9838850"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/ecs-inc/ECS-240-8-37B-CKY-TR/9838850"
 			(at 100.33 91.44 90)
 			(effects
 				(font
