@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e2a091eb-35cd-4ad8-84ee-1cf22fafd302")
+	(uuid "bd7d2e48-4842-4f23-81de-47dd1a19d796")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1690,7 +1690,7 @@
 	)
 	(text "3.2A @ 70C"
 		(exclude_from_sim no)
-		(at 26.67 168.91 0)
+		(at 34.29 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1700,7 +1700,7 @@
 	)
 	(text "24V Max input\ndue to V_{GS}"
 		(exclude_from_sim no)
-		(at 23.368 188.214 0)
+		(at 30.988 268.224 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1710,7 +1710,7 @@
 	)
 	(text "+18V Max input"
 		(exclude_from_sim no)
-		(at 79.248 176.022 0)
+		(at 86.868 256.032 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1719,110 +1719,140 @@
 		(uuid "aa33bca7-8df2-44ba-8a8d-21afae805cba")
 	)
 	(junction
-		(at 66.04 190.5)
+		(at 39.37 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "016cb1d4-3dfc-4496-a41e-dfcfed83b3a6")
+		(uuid "127a8b27-2c6c-45ee-a4ee-81cf1dcbcc0e")
 	)
 	(junction
-		(at 46.99 177.8)
+		(at 162.56 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0fa08068-9c18-4cfc-bd38-9fccb8770cb6")
+		(uuid "2c83c460-3837-4062-a3cb-8de53678b6ee")
 	)
 	(junction
-		(at 154.94 177.8)
+		(at 73.66 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1075c4d0-67af-4206-a6fc-6ffc8d792203")
+		(uuid "51b6db72-a7c5-4a95-8573-43baa16a3ee2")
 	)
 	(junction
-		(at 115.57 177.8)
+		(at 162.56 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33064604-fac9-4d93-ace9-6579ef81d177")
+		(uuid "526fdc35-1798-4d6c-9e6e-606737a84dcf")
 	)
 	(junction
-		(at 31.75 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dbef85f-6e32-4762-bad4-6ecc323e8d46")
-	)
-	(junction
-		(at 77.47 182.88)
+		(at 85.09 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "632e8a72-f656-424d-802b-44fedbbba9fa")
 	)
 	(junction
-		(at 129.54 177.8)
+		(at 137.16 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c4acb19-c033-4d51-be8d-3cacd698c207")
 	)
 	(junction
-		(at 40.64 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74aa44ea-f3a0-447f-9848-cf8a2adb2208")
-	)
-	(junction
-		(at 40.64 190.5)
+		(at 48.26 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83727d4c-5537-4983-9fa7-60a3a01f3bae")
 	)
 	(junction
-		(at 53.34 190.5)
+		(at 123.19 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "860a31c3-4b44-4a8f-864f-20c5f72d06d2")
+	)
+	(junction
+		(at 151.13 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "862d8195-7de2-4c1d-a503-9d393ac61590")
+	)
+	(junction
+		(at 73.66 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d299f34-a122-4111-bbf8-0a66e772929a")
+	)
+	(junction
+		(at 60.96 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92bde67a-6161-4180-98e3-09792f2991dc")
 	)
 	(junction
-		(at 31.75 177.8)
+		(at 85.09 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98f8aadf-e2f8-4d04-bb3a-2f8ad613c680")
+		(uuid "96c8cd6d-159b-4c6d-b9e3-83dfb3e22fe5")
 	)
 	(junction
-		(at 66.04 177.8)
+		(at 39.37 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99e72b8b-02b6-4285-99c1-1f941c1b41c1")
+		(uuid "a9c9f8f4-2679-44e2-9623-de834beae9bc")
 	)
 	(junction
-		(at 77.47 177.8)
+		(at 48.26 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c58e67f-7dac-4cef-935a-bbb18a7f79b9")
+		(uuid "bb13214c-b4ce-41c0-82b8-aae09bc75d28")
 	)
 	(junction
-		(at 154.94 190.5)
+		(at 60.96 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b31e87eb-47ab-4e93-a622-9c5c80deb90f")
+		(uuid "d6ff4661-85c7-4b51-bf44-5e817402bbbb")
 	)
 	(junction
-		(at 77.47 190.5)
+		(at 85.09 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7449bb4-4dbb-4d0c-bfee-f55b17004c99")
 	)
 	(junction
-		(at 53.34 177.8)
+		(at 54.61 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db943aeb-8151-48e0-8a68-62f6d4a6c1e7")
-	)
-	(junction
-		(at 143.51 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7634ffd-c774-4544-b568-c8297d61ff48")
+		(uuid "dd6c2d0c-5aed-424c-83ac-bde0a5e72cc2")
 	)
 	(wire
 		(pts
-			(xy 77.47 182.88) (xy 77.47 184.15)
+			(xy 137.16 262.89) (xy 137.16 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db84ab3-c2b1-4482-9ab0-ddfa3078b66d")
+	)
+	(wire
+		(pts
+			(xy 105.41 270.51) (xy 85.09 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16af0717-a211-4068-9821-ca9912d9ff93")
+	)
+	(wire
+		(pts
+			(xy 73.66 257.81) (xy 85.09 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a751be8-4d99-4f58-a488-9aa1f14d1241")
+	)
+	(wire
+		(pts
+			(xy 85.09 262.89) (xy 85.09 264.16)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1862,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 190.5) (xy 53.34 190.5)
+			(xy 48.26 257.81) (xy 54.61 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa21666-188c-4820-95da-a7a6fc71d5b3")
+	)
+	(wire
+		(pts
+			(xy 48.26 270.51) (xy 60.96 270.51)
 		)
 		(stroke
 			(width 0)
@@ -1842,27 +1882,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 182.88) (xy 115.57 182.88)
+			(xy 48.26 265.43) (xy 48.26 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fc12238-cbbc-43c9-aacc-7ec14ea311dc")
+		(uuid "2d6aef3a-077a-44db-8f21-e05baba6a63b")
 	)
 	(wire
 		(pts
-			(xy 31.75 184.15) (xy 31.75 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f2ba19-7c79-4dd8-95e9-f950a3e9e1fe")
-	)
-	(wire
-		(pts
-			(xy 111.76 180.34) (xy 107.95 180.34)
+			(xy 119.38 260.35) (xy 115.57 260.35)
 		)
 		(stroke
 			(width 0)
@@ -1872,47 +1902,37 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 189.23) (xy 109.22 182.88)
+			(xy 85.09 257.81) (xy 95.25 257.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b2dafda-b31f-485d-a308-34661ac61ad7")
+		(uuid "4cfda2eb-6dd2-451a-b85f-9993e6349915")
 	)
 	(wire
 		(pts
-			(xy 154.94 190.5) (xy 143.51 190.5)
+			(xy 85.09 262.89) (xy 95.25 262.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3efd10ea-dc2e-43d3-be31-2890a4e84760")
+		(uuid "4f9c1200-9f08-43fa-bd0f-6488a33a8c40")
 	)
 	(wire
 		(pts
-			(xy 46.99 177.8) (xy 53.34 177.8)
+			(xy 39.37 264.16) (xy 39.37 265.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "423e341f-451c-491f-998b-f10fffc313c3")
+		(uuid "5b5eb1ea-791c-41aa-b227-6eff47a3fb57")
 	)
 	(wire
 		(pts
-			(xy 77.47 177.8) (xy 87.63 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b0110d2-6f95-4ad9-9810-c4918c26f370")
-	)
-	(wire
-		(pts
-			(xy 16.51 177.8) (xy 21.59 177.8)
+			(xy 24.13 257.81) (xy 29.21 257.81)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 189.23) (xy 109.22 189.23)
+			(xy 137.16 269.24) (xy 116.84 269.24)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +1952,37 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 177.8) (xy 40.64 177.8)
+			(xy 123.19 257.81) (xy 127 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634d6685-8802-4a10-afb0-1996e242f91c")
+	)
+	(wire
+		(pts
+			(xy 119.38 260.35) (xy 119.38 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e633864-affa-45f1-8379-b39aaedf72db")
+	)
+	(wire
+		(pts
+			(xy 105.41 267.97) (xy 105.41 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed13d6a-cc87-41de-9361-8f179dec1804")
+	)
+	(wire
+		(pts
+			(xy 39.37 257.81) (xy 48.26 257.81)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 190.5) (xy 66.04 190.5)
+			(xy 60.96 270.51) (xy 73.66 270.51)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +2002,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 177.8) (xy 77.47 177.8)
+			(xy 119.38 262.89) (xy 123.19 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a90f9e-696a-48cf-aed3-cabdda9ee0b6")
+	)
+	(wire
+		(pts
+			(xy 54.61 257.81) (xy 60.96 257.81)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +2022,27 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 185.42) (xy 26.67 185.42)
+			(xy 151.13 265.43) (xy 151.13 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86feb9cf-8adb-4a6b-86c6-21ebf71e2db1")
+	)
+	(wire
+		(pts
+			(xy 60.96 257.81) (xy 73.66 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89275229-0270-42e8-8400-ff0ceeebc7ab")
+	)
+	(wire
+		(pts
+			(xy 39.37 265.43) (xy 34.29 265.43)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 190.5) (xy 77.47 189.23)
+			(xy 85.09 270.51) (xy 85.09 269.24)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 177.8) (xy 115.57 177.8)
+			(xy 115.57 257.81) (xy 123.19 257.81)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 190.5) (xy 40.64 190.5)
+			(xy 39.37 270.51) (xy 48.26 270.51)
 		)
 		(stroke
 			(width 0)
@@ -2002,17 +2082,27 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 185.42) (xy 40.64 190.5)
+			(xy 162.56 270.51) (xy 151.13 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a22fa982-02d8-48ee-8465-b150b9b9a416")
+		(uuid "9b7ef7aa-022a-4848-a5ca-fb50818d3011")
 	)
 	(wire
 		(pts
-			(xy 53.34 185.42) (xy 53.34 190.5)
+			(xy 134.62 257.81) (xy 137.16 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c709800-669a-44cc-bf2a-2aae60838f12")
+	)
+	(wire
+		(pts
+			(xy 60.96 265.43) (xy 60.96 270.51)
 		)
 		(stroke
 			(width 0)
@@ -2022,27 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 177.8) (xy 154.94 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0378512-99b2-49d0-9ce9-1c196ebe6ff2")
-	)
-	(wire
-		(pts
-			(xy 40.64 177.8) (xy 46.99 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4bab393-9991-4cb3-83a4-a5c4ea9476f2")
-	)
-	(wire
-		(pts
-			(xy 129.54 177.8) (xy 143.51 177.8)
+			(xy 137.16 257.81) (xy 151.13 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2052,37 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 180.34) (xy 111.76 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a0c6dd-49e1-4be3-a68e-6e0b0ddc5fa9")
-	)
-	(wire
-		(pts
-			(xy 143.51 185.42) (xy 143.51 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75bb9cd-7785-47ac-b316-36a2d31baea6")
-	)
-	(wire
-		(pts
-			(xy 129.54 182.88) (xy 129.54 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca57db2-13b4-4416-a05a-a74174f38f34")
-	)
-	(wire
-		(pts
-			(xy 66.04 190.5) (xy 77.47 190.5)
+			(xy 73.66 270.51) (xy 85.09 270.51)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 185.42) (xy 154.94 190.5)
+			(xy 162.56 265.43) (xy 162.56 270.51)
 		)
 		(stroke
 			(width 0)
@@ -2102,77 +2142,27 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 187.96) (xy 97.79 190.5)
+			(xy 116.84 262.89) (xy 115.57 262.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d062b1d3-1207-4d49-80ff-533d6c0344c3")
+		(uuid "f43f12bd-f426-4bac-81c9-8dc439268bf2")
 	)
 	(wire
 		(pts
-			(xy 115.57 177.8) (xy 119.38 177.8)
+			(xy 151.13 257.81) (xy 162.56 257.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d514e519-8154-434f-a909-5f9fe371aa28")
+		(uuid "f5a228e3-db1a-4a66-a736-730575cc0906")
 	)
 	(wire
 		(pts
-			(xy 97.79 190.5) (xy 77.47 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9541c0-1ac9-416a-8e9d-5568d501e325")
-	)
-	(wire
-		(pts
-			(xy 53.34 177.8) (xy 66.04 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e34023fc-b8ed-4c4d-9ed2-2121db13c618")
-	)
-	(wire
-		(pts
-			(xy 77.47 182.88) (xy 87.63 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda9097c-6c18-40d1-829b-b4cc2b3c0a5e")
-	)
-	(wire
-		(pts
-			(xy 109.22 182.88) (xy 107.95 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef06760f-981c-4c29-b158-a7ac9b34263d")
-	)
-	(wire
-		(pts
-			(xy 127 177.8) (xy 129.54 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1193993-48c7-4a5c-a0bb-337d1bb53004")
-	)
-	(wire
-		(pts
-			(xy 66.04 185.42) (xy 66.04 190.5)
+			(xy 73.66 265.43) (xy 73.66 270.51)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 177.8) (xy 31.75 179.07)
+			(xy 39.37 257.81) (xy 39.37 259.08)
 		)
 		(stroke
 			(width 0)
@@ -2190,112 +2180,19 @@
 		)
 		(uuid "f82e0402-a2cb-4c32-ad0a-b77cffca3ebc")
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 66.04 181.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "015bb350-00e6-444b-8f1e-0d8db323c15f")
-		(property "Reference" "C23"
-			(at 68.58 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
+	(wire
+		(pts
+			(xy 116.84 269.24) (xy 116.84 262.89)
 		)
-		(property "Value" "10uF"
-			(at 68.58 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 65.0748 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21A106KOQNNNG_Spec.pdf"
-			(at 66.04 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 66.04 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 66.04 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "CL21A106KOQNNNG"
-			(at 66.04 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "634aa87e-0d75-4923-b1f4-f84ce5d8385f")
-		)
-		(pin "1"
-			(uuid "1760b253-6dc9-4e5a-a7bf-dd36e69727fd")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ff22fb6a-192b-4104-a0b1-c03e38486a12")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 190.5 0)
+		(at 73.66 270.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2305,8 +2202,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d8ee4c7-85cf-4b25-b9fc-30e4ae3d06f7")
-		(property "Reference" "#PWR020"
-			(at 66.04 196.85 0)
+		(property "Reference" "#PWR014"
+			(at 73.66 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,7 +2214,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 195.58 0)
+			(at 73.66 275.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2327,7 +2224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 190.5 0)
+			(at 73.66 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,7 +2235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 190.5 0)
+			(at 73.66 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2349,7 +2246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 190.5 0)
+			(at 73.66 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2365,7 +2262,7 @@
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2373,7 +2270,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 26.67 180.34 90)
+		(at 34.29 260.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2384,7 +2281,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ecfb2a8-05d1-4776-beaa-09e4f7312fe4")
 		(property "Reference" "Q3"
-			(at 26.67 171.45 90)
+			(at 34.29 251.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2394,7 +2291,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 26.67 173.99 90)
+			(at 34.29 254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2404,7 +2301,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 28.575 175.26 0)
+			(at 36.195 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2314,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 30.48 175.26 0)
+			(at 38.1 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2429,7 +2326,51 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 26.67 180.34 0)
+			(at 34.29 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "785-1001-1-ND"
+			(at 34.29 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3401A/1855773"
+			(at 34.29 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+			(at 34.29 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AO3401A"
+			(at 34.29 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,7 +2400,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:AP62300TWU")
-		(at 97.79 180.34 0)
+		(at 105.41 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2469,8 +2410,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "164f2034-aecb-4070-b8a2-943449d6b547")
-		(property "Reference" "U3"
-			(at 97.79 170.18 0)
+		(property "Reference" "U5"
+			(at 105.41 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2480,7 +2421,7 @@
 			)
 		)
 		(property "Value" "AP62300TWU"
-			(at 97.79 172.72 0)
+			(at 105.41 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2490,7 +2431,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 97.79 203.2 0)
+			(at 105.41 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2442,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf"
-			(at 97.79 180.34 0)
+			(at 105.41 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +2453,51 @@
 			)
 		)
 		(property "Description" "3A, 750kHz Buck DC/DC Converter, PFM for light load efficiency, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6"
-			(at 97.79 180.34 0)
+			(at 105.41 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "31-AP62300TWU-7CT-ND"
+			(at 105.41 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP62300TWU-7/12702558"
+			(at 105.41 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 105.41 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AP62300TWU-7"
+			(at 105.41 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,88 +2528,7 @@
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 31.75 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1954fb2b-8150-43ae-8527-a42c09a62858")
-		(property "Reference" "R11"
-			(at 33.274 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 33.274 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 31.75 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 31.75 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e264b786-f14c-4274-ad85-5607658795ad")
-		)
-		(pin "1"
-			(uuid "aa30fd66-c418-47d2-9a5f-ce78328b848e")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R11")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2536,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 123.19 177.8 90)
+		(at 130.81 257.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2642,8 +2546,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a58b571-f472-4941-96d1-c85672fbb581")
-		(property "Reference" "L3"
-			(at 123.19 172.72 90)
+		(property "Reference" "L1"
+			(at 130.81 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2653,7 +2557,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 123.19 175.26 90)
+			(at 130.81 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2663,7 +2567,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Bourns_SRP5030T"
-			(at 123.19 177.8 0)
+			(at 130.81 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2674,7 +2578,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP5030TA.pdf"
-			(at 123.19 177.8 0)
+			(at 130.81 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,8 +2588,8 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 123.19 177.8 0)
+		(property "Description" "FIXED IND 4.7UH 4.6A 53 MOHM SMD"
+			(at 130.81 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2695,8 +2599,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 123.19 177.8 90)
+		(property "Manufacturer" "Bourns Inc."
+			(at 130.81 257.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,8 +2610,30 @@
 				)
 			)
 		)
-		(property "PN" "SRP5030TA-4R7M"
-			(at 123.19 177.8 90)
+		(property "Digikey Part Number" "SRP5030TA-4R7MCT-ND"
+			(at 130.81 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/bourns-inc/SRP5030TA-4R7M/5429673?s=N4IgTCBcDaIMoCUAKBWADAZjQFQIIFoAWBAdgFkQBdAXyA"
+			(at 130.81 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SRP5030TA-4R7M"
+			(at 130.81 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,7 +2652,7 @@
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2734,7 +2660,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 181.61 180)
+		(at 60.96 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2742,31 +2668,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "23fc51d4-a611-4b5c-8f32-1edfae4be7ee")
-		(property "Reference" "C25"
-			(at 146.05 180.34 0)
+		(fields_autoplaced yes)
+		(uuid "22282a0e-aa60-4df4-98cc-fb8aeab584d7")
+		(property "Reference" "C6"
+			(at 64.77 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 146.05 182.88 0)
+		(property "Value" "10uF"
+			(at 64.77 262.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 142.5448 177.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 61.9252 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2776,8 +2703,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21A476MQYNNNE_Spec.pdf"
-			(at 143.51 181.61 0)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 60.96 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,8 +2714,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 181.61 0)
+		(property "Description" "CAP0805 X5R 10UF 10% 16V"
+			(at 60.96 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2798,8 +2725,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 143.51 181.61 0)
+		(property "Digikey Part Number" "4713-GMC21X5R106K16NTCT-ND"
+			(at 60.96 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,8 +2736,30 @@
 				)
 			)
 		)
-		(property "PN" "CL21A476MQYNNNE"
-			(at 143.51 181.61 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R106K16NT/21434560"
+			(at 60.96 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 60.96 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC21X5R106K16NT"
+			(at 60.96 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,15 +2770,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b061a1e-7ec4-4c9c-b527-f0d37a48ae03")
+			(uuid "b0271ded-edac-4db7-a412-e775cb48a794")
 		)
 		(pin "1"
-			(uuid "253c066e-c09c-4284-b4e3-6c9dc67e2990")
+			(uuid "58b6ba16-3cfd-4a72-9ef5-fb9842b9b3bd")
 		)
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C25")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2837,7 +2786,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 46.99 177.8 0)
+		(at 54.61 257.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2847,8 +2796,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25aba09e-806e-48ed-a82d-40a85c8db3e5")
-		(property "Reference" "#PWR025"
-			(at 46.99 181.61 0)
+		(property "Reference" "#PWR013"
+			(at 54.61 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +2808,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 46.99 172.72 0)
+			(at 54.61 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2869,7 +2818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 177.8 0)
+			(at 54.61 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2880,7 +2829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 177.8 0)
+			(at 54.61 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2891,7 +2840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 46.99 177.8 0)
+			(at 54.61 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,7 +2856,7 @@
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR025")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2915,7 +2864,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 115.57 180.34 180)
+		(at 123.19 260.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2924,8 +2873,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b8acdc2-4fc3-4016-a298-1b9d5b2faa72")
-		(property "Reference" "C11"
-			(at 118.11 179.0699 0)
+		(property "Reference" "C8"
+			(at 125.73 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2936,7 +2885,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 118.11 181.6099 0)
+			(at 125.73 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2947,7 +2896,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 115.57 180.34 0)
+			(at 123.19 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,8 +2906,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 180.34 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 123.19 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,8 +2917,52 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 170.18 0)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 123.19 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1344-1-ND"
+			(at 123.19 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 123.19 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 123.19 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 123.19 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2988,7 +2981,7 @@
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2996,192 +2989,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 77.47 186.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fcc1452-9efe-4bfb-aad8-750f122a3968")
-		(property "Reference" "R3"
-			(at 80.01 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "32.4k"
-			(at 80.01 187.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 77.47 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45afb0fd-5305-412c-867f-ff6c76de8841")
-		)
-		(pin "2"
-			(uuid "69b87856-954f-4cce-8e02-b2be475ed397")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 40.64 181.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32a0f41c-5ef0-4629-9828-4178f24303b4")
-		(property "Reference" "C21"
-			(at 43.18 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 43.18 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 39.6748 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21A106KOQNNNG_Spec.pdf"
-			(at 40.64 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 40.64 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 40.64 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "CL21A106KOQNNNG"
-			(at 40.64 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "17bdbf16-d544-4e7a-bf70-9606d91d7cbb")
-		)
-		(pin "1"
-			(uuid "20af5983-f1a0-4c90-b34b-81d15668be23")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 129.54 180.34 0)
+		(at 137.16 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3191,8 +2999,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35931eee-b0f1-4781-9cb2-a2e414f3a17b")
-		(property "Reference" "R4"
-			(at 132.08 179.0699 0)
+		(property "Reference" "R12"
+			(at 139.7 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3203,7 +3011,7 @@
 			)
 		)
 		(property "Value" "56.2k"
-			(at 132.08 181.6099 0)
+			(at 139.7 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3213,8 +3021,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 129.54 180.34 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 137.16 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,8 +3032,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 129.54 180.34 0)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
+			(at 137.16 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,8 +3043,52 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 129.54 180.34 0)
+		(property "Description" "RES SMD 56.2K OHM 1% 1/10W 0603"
+			(at 137.16 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "13-RE0603FRE0756K2LCT-ND"
+			(at 137.16 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/RE0603FRE0756K2L/5923390"
+			(at 137.16 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RE0603FRE0756K2L"
+			(at 137.16 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3255,7 +3107,7 @@
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R4")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3263,7 +3115,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 129.54 186.69 0)
+		(at 39.37 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3271,535 +3123,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "401a71bd-cf82-4603-adc2-697079405836")
-		(property "Reference" "R5"
-			(at 132.08 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 132.08 187.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 129.54 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 129.54 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73a1be2b-c499-45b5-b4ca-f90adc578093")
-		)
-		(pin "2"
-			(uuid "3364b4cc-0f16-4112-8203-0b4946811bd9")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 16.51 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45cb8e4f-1dc9-454b-ba4e-dd0dad058c71")
-		(property "Reference" "#PWR035"
-			(at 16.51 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 16.51 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 16.51 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3dedd80f-ccd7-4f4e-81b5-a6fe70d25816")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "587637f9-d7b8-4dac-b01c-e36c7cba8b9b")
-		(property "Reference" "#PWR019"
-			(at 154.94 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed027179-591c-4055-8f90-0a0ec53e371f")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 154.94 181.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e6bb4eb-444b-4729-95b1-24054513f878")
-		(property "Reference" "C24"
-			(at 157.48 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 157.48 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 153.9748 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21A106KOQNNNG_Spec.pdf"
-			(at 154.94 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 154.94 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "CL21A106KOQNNNG"
-			(at 154.94 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "59db4955-1641-4bd7-8def-78502418cbd9")
-		)
-		(pin "1"
-			(uuid "f61f0c26-de52-4289-98b0-2fbc4b6737d9")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67405f24-2c0a-44c4-9e5e-6aecf5d2fe82")
-		(property "Reference" "R2"
-			(at 80.01 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "221k"
-			(at 80.01 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 77.47 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20c4213d-7608-4289-9ccb-dfa87c7549eb")
-		)
-		(pin "2"
-			(uuid "2e042073-e8ae-4329-8680-0ee0204c560c")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 181.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "932b97ae-453c-4a5e-91d9-d37f990f1005")
-		(property "Reference" "C22"
-			(at 55.88 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 55.88 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 52.3748 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL21A106KOQNNNG_Spec.pdf"
-			(at 53.34 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 53.34 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "CL21A106KOQNNNG"
-			(at 53.34 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c955807d-1d92-4b02-a049-38a9e7d1896d")
-		)
-		(pin "1"
-			(uuid "bfe13a2c-77e7-4bf5-ab0e-9e965933e329")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 31.75 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c73ff4d6-ec54-4caf-8e47-afe9213744a8")
-		(property "Reference" "R10"
-			(at 33.274 180.34 0)
+		(uuid "3e802af6-7ac0-4722-b82d-0632f6da716d")
+		(property "Reference" "R8"
+			(at 40.894 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3810,7 +3136,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 33.274 182.88 0)
+			(at 40.894 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3820,8 +3146,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 31.75 181.61 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3831,8 +3157,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 31.75 181.61 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 39.37 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3842,8 +3168,52 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 31.75 181.61 0)
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0603"
+			(at 39.37 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1KLDCT-ND"
+			(at 39.37 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071KL/2827819"
+			(at 39.37 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-071KL"
+			(at 39.37 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,15 +3232,15 @@
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 154.94 177.8 0)
+		(lib_id "Device:R_Small")
+		(at 137.16 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3879,9 +3249,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7adeda9-a17a-4f94-a23f-a8a578e8ee82")
-		(property "Reference" "#PWR024"
-			(at 154.94 181.61 0)
+		(uuid "401a71bd-cf82-4603-adc2-697079405836")
+		(property "Reference" "R13"
+			(at 139.7 265.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.7 267.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 137.16 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3891,8 +3283,112 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 154.94 172.72 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 137.16 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 0.5% 1/10W 0603"
+			(at 137.16 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-10KDCT-ND"
+			(at 137.16 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/RT0603DRD0710KL/1035416"
+			(at 137.16 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RT0603DRD0710KL"
+			(at 137.16 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73a1be2b-c499-45b5-b4ca-f90adc578093")
+		)
+		(pin "2"
+			(uuid "3364b4cc-0f16-4112-8203-0b4946811bd9")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 24.13 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45cb8e4f-1dc9-454b-ba4e-dd0dad058c71")
+		(property "Reference" "#PWR012"
+			(at 24.13 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 24.13 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,7 +3398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 177.8 0)
+			(at 24.13 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +3409,712 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 177.8 0)
+			(at 24.13 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 24.13 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dedd80f-ccd7-4f4e-81b5-a6fe70d25816")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 39.37 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49ab04ae-d55c-4696-b22d-93c700c112fc")
+		(property "Reference" "R9"
+			(at 40.894 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 40.894 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0603"
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1KLDCT-ND"
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/AC0603FR-071KL/2827819"
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-071KL"
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a7a787f7-e19a-47eb-887a-db8941a88840")
+		)
+		(pin "1"
+			(uuid "f14c8e6d-5aa2-4dfc-88a4-50cf4d0bbaee")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 261.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64ee6a6f-10b0-4dcb-b489-e74e57852c40")
+		(property "Reference" "C14"
+			(at 153.67 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF"
+			(at 153.67 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 150.1648 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 151.13 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP0805 X5R 47UF 20% 10V"
+			(at 151.13 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 151.13 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "4713-GMC21X5R476M10NTCT-ND"
+			(at 151.13 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R476M10NT/18151103"
+			(at 151.13 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC21X5R476M10NT"
+			(at 151.13 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2b061a1e-7ec4-4c9c-b527-f0d37a48ae04")
+		)
+		(pin "1"
+			(uuid "253c066e-c09c-4284-b4e3-6c9dc67e2991")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 261.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "657a38e2-0432-42b0-a70f-6c9134e6a840")
+		(property "Reference" "C15"
+			(at 165.1 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 165.1 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 161.5948 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 162.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP0603 X5R 10UF 20% 10V"
+			(at 162.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 162.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "4713-GMC10X5R106M10NTCT-ND"
+			(at 162.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC10X5R106M10NT/18151101"
+			(at 162.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC10X5R106M10NT"
+			(at 162.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59db4955-1641-4bd7-8def-78502418cbda")
+		)
+		(pin "1"
+			(uuid "f61f0c26-de52-4289-98b0-2fbc4b6737da")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 85.09 260.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67405f24-2c0a-44c4-9e5e-6aecf5d2fe82")
+		(property "Reference" "R10"
+			(at 87.63 259.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "221k"
+			(at 87.63 261.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 85.09 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 85.09 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 221K OHM 1% 1/10W 0603"
+			(at 85.09 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-221KHRCT-ND"
+			(at 85.09 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07221KL/727064"
+			(at 85.09 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 85.09 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0603FR-07221KL"
+			(at 85.09 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20c4213d-7608-4289-9ccb-dfa87c7549ec")
+		)
+		(pin "2"
+			(uuid "2e042073-e8ae-4329-8680-0ee0204c560d")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a048413-390d-4256-8663-028263e5db0b")
+		(property "Reference" "C7"
+			(at 77.47 260.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 77.47 262.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 74.6252 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 73.66 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP0805 X5R 10UF 10% 16V"
+			(at 73.66 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "4713-GMC21X5R106K16NTCT-ND"
+			(at 73.66 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R106K16NT/21434560"
+			(at 73.66 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 73.66 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC21X5R106K16NT"
+			(at 73.66 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c806ff00-e781-4e05-b231-36a509901035")
+		)
+		(pin "1"
+			(uuid "7142414e-5999-429f-900b-3fdfc6691c2f")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2b68645-46a1-4bf9-a743-c63d78f08322")
+		(property "Reference" "#PWR032"
+			(at 162.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.56 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +4125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 177.8 0)
+			(at 162.56 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3940,7 +4141,337 @@
 		(instances
 			(project "vectornav-imu"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR024")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d793611a-5ec4-4d59-b3b7-a51c3080a644")
+		(property "Reference" "#PWR033"
+			(at 162.56 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed027179-591c-4055-8f90-0a0ec53e3720")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 48.26 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e128b2e4-5b7d-4c6f-9ce8-3c3f2f23d22f")
+		(property "Reference" "C4"
+			(at 52.07 260.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 52.07 262.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 49.2252 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 48.26 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP0805 X5R 10UF 10% 16V"
+			(at 48.26 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "4713-GMC21X5R106K16NTCT-ND"
+			(at 48.26 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R106K16NT/21434560"
+			(at 48.26 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 48.26 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC21X5R106K16NT"
+			(at 48.26 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "86c0361d-2a65-46c6-87c1-6feb5aeb8967")
+		)
+		(pin "1"
+			(uuid "d3f63c5a-c932-403c-b7ed-76ffc78305e1")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 85.09 266.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fadc43fd-4974-4913-a5e9-da154886d279")
+		(property "Reference" "R11"
+			(at 87.63 265.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "32.4k"
+			(at 87.63 267.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 85.09 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
+			(at 85.09 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES SMD 32.4K OHM 1% 1/10W 0603"
+			(at 85.09 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CR0603-FX-3242ELFCT-ND"
+			(at 85.09 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/bourns-inc/CR0603-FX-3242ELF/3783945"
+			(at 85.09 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 85.09 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CR0603-FX-3242ELF"
+			(at 85.09 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45afb0fd-5305-412c-867f-ff6c76de8842")
+		)
+		(pin "2"
+			(uuid "69b87856-954f-4cce-8e02-b2be475ed398")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "R11")
 					(unit 1)
 				)
 			)
