@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "7026022f-5204-42b2-8487-842155a70389")
+	(uuid "d30fb8d6-c4be-448f-ab62-5cdc4eeab1f2")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -746,32 +746,32 @@
 		)
 	)
 	(junction
-		(at 129.54 250.19)
+		(at 163.83 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "352473f8-6f12-49ad-9b12-c12504face76")
 	)
 	(junction
-		(at 135.89 250.19)
+		(at 170.18 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f9f1e81-a18b-4c98-9f56-0eedaf4d2887")
 	)
 	(junction
-		(at 148.59 260.35)
+		(at 182.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e9fad7e-3658-4b4e-8d87-6a8545495cc0")
 	)
 	(junction
-		(at 161.29 250.19)
+		(at 195.58 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba0153e4-f527-4de8-be26-32d383f6e394")
 	)
 	(wire
 		(pts
-			(xy 129.54 259.08) (xy 129.54 260.35)
+			(xy 163.83 52.07) (xy 163.83 53.34)
 		)
 		(stroke
 			(width 0)
@@ -781,7 +781,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 250.19) (xy 129.54 251.46)
+			(xy 163.83 43.18) (xy 163.83 44.45)
 		)
 		(stroke
 			(width 0)
@@ -791,7 +791,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 251.46) (xy 161.29 250.19)
+			(xy 195.58 44.45) (xy 195.58 43.18)
 		)
 		(stroke
 			(width 0)
@@ -801,7 +801,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 259.08) (xy 161.29 260.35)
+			(xy 195.58 52.07) (xy 195.58 53.34)
 		)
 		(stroke
 			(width 0)
@@ -811,7 +811,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 260.35) (xy 148.59 260.35)
+			(xy 163.83 53.34) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -821,7 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 250.19) (xy 135.89 250.19)
+			(xy 172.72 43.18) (xy 170.18 43.18)
 		)
 		(stroke
 			(width 0)
@@ -831,7 +831,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 255.27) (xy 135.89 250.19)
+			(xy 170.18 48.26) (xy 170.18 43.18)
 		)
 		(stroke
 			(width 0)
@@ -841,7 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 250.19) (xy 158.75 250.19)
+			(xy 195.58 43.18) (xy 193.04 43.18)
 		)
 		(stroke
 			(width 0)
@@ -851,7 +851,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 255.27) (xy 135.89 255.27)
+			(xy 172.72 48.26) (xy 170.18 48.26)
 		)
 		(stroke
 			(width 0)
@@ -861,7 +861,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 260.35) (xy 148.59 260.35)
+			(xy 195.58 53.34) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -871,7 +871,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 250.19) (xy 135.89 250.19)
+			(xy 163.83 43.18) (xy 170.18 43.18)
 		)
 		(stroke
 			(width 0)
@@ -881,7 +881,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:MIC5504-3.3YM5")
-		(at 148.59 252.73 0)
+		(at 182.88 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -892,7 +892,7 @@
 		(fields_autoplaced yes)
 		(uuid "48c85c53-135f-4175-9c03-f1aaaf0c74b5")
 		(property "Reference" "U2"
-			(at 148.59 242.57 0)
+			(at 182.88 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -902,7 +902,7 @@
 			)
 		)
 		(property "Value" "MIC5504-3.3YM5-TR"
-			(at 148.59 245.11 0)
+			(at 182.88 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -912,7 +912,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 148.59 262.89 0)
+			(at 182.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -923,7 +923,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5501-02-03-04-300mA-Single-Output-LDO-in-Small-Packages-DS20006006B.pdf"
-			(at 142.24 246.38 0)
+			(at 176.53 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -934,7 +934,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 300MA SOT23-5"
-			(at 148.59 252.73 0)
+			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -945,7 +945,7 @@
 			)
 		)
 		(property "Digikey Part Number" "576-4764-1-ND"
-			(at 148.59 252.73 0)
+			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/MIC5504-3-3YM5-TR/4864018"
-			(at 148.59 252.73 0)
+			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -967,7 +967,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 148.59 252.73 0)
+			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -978,7 +978,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MIC5504-3.3YM5-TR"
-			(at 148.59 252.73 0)
+			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1016,9 +1016,9 @@
 					(unit 1)
 				)
 			)
-			(project "vectornav-imu"
+			(project "template"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1026,144 +1026,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 161.29 255.27 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4b663ea4-83c6-4289-8ff4-b66c9da773c8")
-		(property "Reference" "C5"
-			(at 163.83 254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 163.83 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.3248 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
-			(at 161.29 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP0603 X7R 1UF 10% 10V"
-			(at 161.29 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Cal-Chip Electronics, Inc."
-			(at 161.29 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "4713-GMC10X7R105K10NTCT-ND"
-			(at 161.29 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC10X7R105K10NT/25323824"
-			(at 161.29 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GMC10X7R105K10NT"
-			(at 161.29 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c671bdaa-a005-423e-b9ac-b1fa7b2114a4")
-		)
-		(pin "1"
-			(uuid "8760e333-c05f-4a67-9c72-e1d0d53e7b2f")
-		)
-		(instances
-			(project "dcdc-regulator-test"
-				(path "/1eaf6089-efbb-4c23-ad74-83bc24c8d4ef"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "LINREG_3V3_300mA"
-				(path "/80430d07-2ce8-4c8d-ad3b-445ca3ced0f3"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 129.54 255.27 180)
+		(at 163.83 48.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1172,8 +1035,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b77018a-82d3-4ea7-8239-afd009dba212")
-		(property "Reference" "C7"
-			(at 132.08 254 0)
+		(property "Reference" "C9"
+			(at 166.37 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1184,7 +1047,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 132.08 256.54 0)
+			(at 166.37 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1195,7 +1058,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 128.5748 251.46 0)
+			(at 162.8648 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1206,7 +1069,7 @@
 			)
 		)
 		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
-			(at 129.54 255.27 0)
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1216,8 +1079,8 @@
 				)
 			)
 		)
-		(property "Description" "CAP0603 X7R 1UF 10% 10V"
-			(at 129.54 255.27 0)
+		(property "Description" "CAP0603 X7R 1UF 10% 50V"
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1228,7 +1091,7 @@
 			)
 		)
 		(property "Manufacturer" "Cal-Chip Electronics, Inc."
-			(at 129.54 255.27 0)
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1238,8 +1101,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "4713-GMC10X7R105K10NTCT-ND"
-			(at 129.54 255.27 0)
+		(property "Digikey Part Number" "4713-GMC10X7R105K50NTCT-ND"
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1249,8 +1112,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC10X7R105K10NT/25323824"
-			(at 129.54 255.27 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC10X7R105K50NT/18151141"
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1260,8 +1123,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GMC10X7R105K10NT"
-			(at 129.54 255.27 0)
+		(property "Manufacturer Part Number" "GMC10X7R105K50NT"
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1278,9 +1141,134 @@
 			(uuid "3ec0df87-cda9-4ae1-a546-e9bbcaaf4cf5")
 		)
 		(instances
-			(project "vectornav-imu"
+			(project "template"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C7")
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 195.58 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8cc43656-b765-4e4b-957b-af7332f0f073")
+		(property "Reference" "C17"
+			(at 198.12 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 198.12 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.6148 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 195.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP0603 X7R 1UF 10% 50V"
+			(at 195.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 195.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "4713-GMC10X7R105K50NTCT-ND"
+			(at 195.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC10X7R105K50NT/18151141"
+			(at 195.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC10X7R105K50NT"
+			(at 195.58 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b509106-9cdf-480e-b960-5a05839d1981")
+		)
+		(pin "1"
+			(uuid "7cbf4609-f6c8-4711-8d19-dbaa7529398f")
+		)
+		(instances
+			(project "template"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1288,7 +1276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 260.35 0)
+		(at 182.88 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1299,7 +1287,7 @@
 		(fields_autoplaced yes)
 		(uuid "91a9ed2f-321a-4ab4-bb28-8b613d83038d")
 		(property "Reference" "#PWR03"
-			(at 148.59 266.7 0)
+			(at 182.88 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1310,7 +1298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 265.43 0)
+			(at 182.88 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1320,7 +1308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 260.35 0)
+			(at 182.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1331,7 +1319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 260.35 0)
+			(at 182.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1342,7 +1330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 260.35 0)
+			(at 182.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,9 +1356,9 @@
 					(unit 1)
 				)
 			)
-			(project "vectornav-imu"
+			(project "template"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1378,7 +1366,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 161.29 250.19 0)
+		(at 195.58 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1389,7 +1377,7 @@
 		(fields_autoplaced yes)
 		(uuid "c473c5e7-73af-49d3-814f-aa94928deb44")
 		(property "Reference" "#PWR02"
-			(at 161.29 254 0)
+			(at 195.58 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1400,7 +1388,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 161.29 245.11 0)
+			(at 195.58 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1410,7 +1398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 250.19 0)
+			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +1409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 250.19 0)
+			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1432,7 +1420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 161.29 250.19 0)
+			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1458,9 +1446,9 @@
 					(unit 1)
 				)
 			)
-			(project "vectornav-imu"
+			(project "template"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1468,7 +1456,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 129.54 250.19 0)
+		(at 163.83 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1479,7 +1467,7 @@
 		(fields_autoplaced yes)
 		(uuid "f188207f-ab87-4d64-8c2e-a500a881dbb5")
 		(property "Reference" "#PWR01"
-			(at 129.54 254 0)
+			(at 163.83 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1490,7 +1478,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 245.11 0)
+			(at 163.83 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1500,7 +1488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 250.19 0)
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1511,7 +1499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 250.19 0)
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,7 +1510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 129.54 250.19 0)
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1548,9 +1536,9 @@
 					(unit 1)
 				)
 			)
-			(project "vectornav-imu"
+			(project "template"
 				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
