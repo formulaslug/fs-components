@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "cff846e3-7cd2-4381-ba9e-558f4d7252ee")
+	(uuid "55451a16-1c68-4ed2-a4b8-1d07e2c1d6f1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -978,6 +978,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1094,19 +1233,52 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "(notes)"
+		(exclude_from_sim no)
+		(at 128.778 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30a6168b-e1ac-437e-b335-d8951a3ee2a1")
+	)
 	(text "@{round(1/(2*3.14*220*(1*10^(-6))), 2)}khz CO"
 		(exclude_from_sim no)
-		(at 176.53 24.892 0)
+		(at 133.35 270.002 0)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
 		)
-		(uuid "74585466-61ff-47a9-8f49-af0251836c40")
+		(uuid "743023cf-addc-4793-87db-91828344aa7c")
+	)
+	(text "Adjust R and C to meet\ncircuit's bandwidth / input\nimpedance requirements"
+		(exclude_from_sim no)
+		(at 118.618 258.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b9d1c6c-0ebc-42a5-b56e-55df214d2157")
+	)
+	(text "Replace +3V3 with\nmaximum expected\nvoltage of the nets"
+		(exclude_from_sim no)
+		(at 148.082 258.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a12ce4e5-b018-4706-97d4-b1685cb16b50")
 	)
 	(text "@{220*0.2}V\nMax OV/UV"
 		(exclude_from_sim no)
-		(at 165.1 22.098 0)
+		(at 121.92 267.208 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -1115,184 +1287,184 @@
 		(uuid "a537365f-0988-4004-84fb-b08b76d270b8")
 	)
 	(junction
-		(at 168.91 31.75)
+		(at 158.75 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "347141c1-c1db-4a2d-8d44-77221935341e")
+		(uuid "12737ad1-c728-4a05-bcf0-71a31ad26e12")
 	)
 	(junction
-		(at 200.66 31.75)
+		(at 157.48 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4432e0f5-56b8-4001-863e-b01bb1339d33")
+		(uuid "5480de1e-800e-41fb-aef8-4d205f52da13")
 	)
 	(junction
-		(at 186.69 29.21)
+		(at 142.24 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c54902e-410b-4ae9-af57-37435e54ad59")
+		(uuid "5488d58f-f7fa-4c6d-b2a9-9658797a7915")
 	)
 	(junction
-		(at 201.93 31.75)
+		(at 125.73 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70f191a2-2cb9-43cb-9659-ed2b933a2272")
+		(uuid "96754dc2-2f0e-4abb-8f14-ef854200b08b")
 	)
 	(junction
-		(at 185.42 29.21)
+		(at 143.51 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b67e35f4-9074-4103-8429-39711532ebf7")
+		(uuid "a614e7d0-9a06-4fce-9de4-1a0a60343111")
 	)
 	(junction
-		(at 177.8 29.21)
+		(at 133.35 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd54fdca-4e78-419a-91f0-c65a4c15ef84")
+		(uuid "e5773233-89cb-43e7-a3be-7e07616cec6a")
 	)
 	(wire
 		(pts
-			(xy 185.42 29.21) (xy 186.69 29.21)
+			(xy 142.24 274.32) (xy 142.24 279.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1657759d-44ee-4eac-b77f-4ac6e54ea303")
+		(uuid "08ae95f5-7a97-44c5-a539-e4d7df17962c")
 	)
 	(wire
 		(pts
-			(xy 167.64 29.21) (xy 177.8 29.21)
+			(xy 143.51 274.32) (xy 165.1 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23d38f38-9b9d-4d3d-968d-33a9ff4083e2")
+		(uuid "16080310-78bb-41fb-ad32-ae2cc0600c15")
 	)
 	(wire
 		(pts
-			(xy 201.93 31.75) (xy 208.28 31.75)
+			(xy 142.24 274.32) (xy 143.51 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cface11-2baf-417e-b97d-6b3a0cdf8662")
+		(uuid "1f3f63bb-faae-4a1d-9efe-a4d99d3b5ee7")
 	)
 	(wire
 		(pts
-			(xy 201.93 26.67) (xy 201.93 31.75)
+			(xy 157.48 276.86) (xy 157.48 279.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3791b08f-2270-47cf-8abe-281c00872272")
+		(uuid "42a54f94-f5dc-46de-8df7-755563c8a0ca")
 	)
 	(wire
 		(pts
-			(xy 177.8 29.21) (xy 177.8 34.29)
+			(xy 158.75 276.86) (xy 165.1 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3eb3870d-fc8e-45ab-adc0-cb2d8bdd1a07")
+		(uuid "4a6e36ae-2382-43b7-8810-cb6422a6ab24")
 	)
 	(wire
 		(pts
-			(xy 185.42 29.21) (xy 185.42 34.29)
+			(xy 158.75 271.78) (xy 158.75 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "426ab2d4-efd8-4e8f-86fd-d72017c26698")
+		(uuid "766c4b5c-5fe2-42c6-adf1-2f430881559f")
 	)
 	(wire
 		(pts
-			(xy 177.8 29.21) (xy 185.42 29.21)
+			(xy 125.73 276.86) (xy 157.48 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43262b3a-b3a3-4055-8098-b68f4f3cbaf3")
+		(uuid "83b84c98-8410-4667-aca0-62aed8b0674a")
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 201.93 31.75)
+			(xy 143.51 271.78) (xy 143.51 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45ef60fd-cf4b-4acc-9c6b-c5b5ea8cee68")
+		(uuid "888ecccd-cfe0-4701-89fd-e64c85d9449b")
 	)
 	(wire
 		(pts
-			(xy 168.91 31.75) (xy 168.91 34.29)
+			(xy 133.35 274.32) (xy 142.24 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6039828b-85bd-42e6-b869-548fe4020714")
+		(uuid "a67a98a7-0da9-4b88-8a11-3894e747f136")
 	)
 	(wire
 		(pts
-			(xy 186.69 29.21) (xy 208.28 29.21)
+			(xy 157.48 276.86) (xy 158.75 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fba15a2-4aff-4cb0-849c-04fee9d7cb84")
+		(uuid "a6fd8275-721c-4db0-83e4-5f749c9672b6")
 	)
 	(wire
 		(pts
-			(xy 168.91 31.75) (xy 200.66 31.75)
+			(xy 125.73 276.86) (xy 125.73 279.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85d09298-98b9-40c0-af03-9fcad68b460e")
+		(uuid "acefc9a9-2d77-4053-a717-38dfb3e28f90")
 	)
 	(wire
 		(pts
-			(xy 186.69 26.67) (xy 186.69 29.21)
+			(xy 124.46 274.32) (xy 133.35 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95aaecb9-54a9-4de5-a514-abc8b9a3ea10")
+		(uuid "b5bd6b50-7ac8-4d60-864c-733323728a4a")
 	)
 	(wire
 		(pts
-			(xy 167.64 31.75) (xy 168.91 31.75)
+			(xy 124.46 276.86) (xy 125.73 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98ddfbab-98c8-437b-940d-76036e1f4a94")
+		(uuid "bb6d3c50-6005-4ed7-9d86-4dd13f38a4cc")
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 200.66 34.29)
+			(xy 133.35 274.32) (xy 133.35 279.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2c70985-7c0d-43da-a7b0-2ffe6b9020eb")
+		(uuid "de7a5aef-1d0e-422d-8bb1-8390f4b05415")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 193.04 39.37 0)
+		(lib_id "Diode:BAT54A")
+		(at 149.86 279.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1300,10 +1472,136 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a5f2c64-2756-4daa-92ac-df2361826dc1")
+		(uuid "0edbc9a4-a9d0-4e26-981a-c1d8541a52bd")
+		(property "Reference" "D1"
+			(at 144.526 281.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54A"
+			(at 144.526 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 151.765 276.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAT54ALT1-D.PDF"
+			(at 146.812 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE ARR SCHOTT 30V 200MA SOT23"
+			(at 149.86 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "BAT54ALT1GOSCT-ND"
+			(at 149.86 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/onsemi/BAT54ALT1G/918314"
+			(at 149.86 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 149.86 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BAT54ALT1G"
+			(at 149.86 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6661b5c8-7988-432c-90b5-15470595c78e")
+		)
+		(pin "2"
+			(uuid "c2330d9a-e9fe-4b11-8bb3-f379a18dc55a")
+		)
+		(pin "1"
+			(uuid "f4c0feea-f096-4f7f-beb7-ee91e9f96430")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 284.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a02cea1-9904-46c5-8789-b4952168fddb")
 		(property "Reference" "#PWR014"
-			(at 193.04 45.72 0)
+			(at 149.86 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1314,7 +1612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 44.45 0)
+			(at 149.86 288.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1324,7 +1622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 39.37 0)
+			(at 149.86 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1335,7 +1633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 39.37 0)
+			(at 149.86 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1346,7 +1644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 39.37 0)
+			(at 149.86 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1369,134 +1667,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 177.8 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "397ab2b5-07f0-44d2-8f27-6e6d338e3281")
-		(property "Reference" "C6"
-			(at 180.34 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF"
-			(at 180.34 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 177.8 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 177.8 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 177.8 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 177.8 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 177.8 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7c1a5d8-63c3-4a9d-a56b-67b19edd69a5")
-		)
-		(pin "2"
-			(uuid "496d9a61-248d-492f-b514-bdc688ecc204")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 168.91 39.37 0)
+		(at 125.73 284.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1504,10 +1676,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "419ed734-5f6b-48eb-8069-293a960f7bb8")
+		(uuid "5b278e09-b0ce-4350-8287-7499cc0af55f")
 		(property "Reference" "#PWR012"
-			(at 168.91 45.72 0)
+			(at 125.73 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1518,7 +1689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 44.45 0)
+			(at 125.73 288.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1528,7 +1699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 39.37 0)
+			(at 125.73 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1539,7 +1710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 39.37 0)
+			(at 125.73 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1550,7 +1721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 39.37 0)
+			(at 125.73 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1573,8 +1744,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54A")
-		(at 193.04 34.29 0)
+		(lib_id "power:+3V3")
+		(at 151.13 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1582,41 +1753,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "675bbedf-3f4c-4814-8587-28ec69174a90")
-		(property "Reference" "D2"
-			(at 187.706 36.576 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54A"
-			(at 187.706 39.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 194.945 31.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
-			(at 189.992 34.29 0)
+		(uuid "71b5bf16-91ab-4149-a2a6-6a5b5f3d8121")
+		(property "Reference" "#PWR032"
+			(at 151.13 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1626,9 +1765,8 @@
 				)
 			)
 		)
-		(property "Description" "schottky barrier diode"
-			(at 193.04 34.29 0)
-			(hide yes)
+		(property "Value" "+3V3"
+			(at 151.13 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1637,57 +1775,8 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "6661b5c8-7988-432c-90b5-15470595c78e")
-		)
-		(pin "2"
-			(uuid "c2330d9a-e9fe-4b11-8bb3-f379a18dc55a")
-		)
-		(pin "1"
-			(uuid "f4c0feea-f096-4f7f-beb7-ee91e9f96430")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 29.21 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c0717c1-a4da-4042-b0a9-89034b58bc16")
-		(property "Reference" "R8"
-			(at 165.1 24.892 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 165.1 26.924 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 165.1 29.21 0)
+		(property "Footprint" ""
+			(at 151.13 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1698,7 +1787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 29.21 0)
+			(at 151.13 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,8 +1797,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 29.21 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 151.13 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1719,8 +1808,51 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
-			(at 165.1 29.21 0)
+		(pin "1"
+			(uuid "c5c0709c-3e2c-488b-839c-9e5c49a428d2")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 121.92 274.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c0717c1-a4da-4042-b0a9-89034b58bc16")
+		(property "Reference" "R8"
+			(at 121.92 270.002 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 121.92 272.034 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.92 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,8 +1862,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
-			(at 165.1 29.21 0)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
+			(at 121.92 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,8 +1873,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 165.1 29.21 0)
+		(property "Description" "RES 220 OHM 5% 1/10W 0603"
+			(at 121.92 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,8 +1884,41 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 165.1 29.21 0)
+		(property "Digikey Part Number" "A130087CT-ND"
+			(at 121.92 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603J220R/8576689"
+			(at 121.92 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 121.92 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0603J220R"
+			(at 121.92 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,8 +1944,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 177.8 39.37 0)
+		(lib_id "Diode:BAT54C")
+		(at 151.13 271.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1788,10 +1953,136 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ef93e20-949b-4986-b773-827fdb3d42ab")
+		(uuid "7fa84fc2-346e-4fbd-940b-8999187ceaae")
+		(property "Reference" "D2"
+			(at 144.78 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 144.78 268.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 149.225 274.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"
+			(at 153.162 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE ARR SCHOTT 30V 200MA SOT23"
+			(at 151.13 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "BAT54CLT1GOSCT-ND"
+			(at 151.13 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/onsemi/BAT54CLT1G/1748976"
+			(at 151.13 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 151.13 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BAT54CLT1G"
+			(at 151.13 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efd40c13-d45e-4b54-ad08-6c4d8bbb21a2")
+		)
+		(pin "2"
+			(uuid "a169594f-61a6-462b-8e23-0f3d4ba9a05c")
+		)
+		(pin "3"
+			(uuid "32540b81-26a5-4514-83bb-6d29fa36177a")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 284.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dfa2a87-dbe0-4dbf-b58e-84f3247c1b10")
 		(property "Reference" "#PWR013"
-			(at 177.8 45.72 0)
+			(at 133.35 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +2093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 44.45 0)
+			(at 133.35 288.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1812,7 +2103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 39.37 0)
+			(at 133.35 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +2114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 39.37 0)
+			(at 133.35 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +2125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 39.37 0)
+			(at 133.35 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,7 +2149,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 165.1 31.75 90)
+		(at 121.92 276.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1868,7 +2159,7 @@
 		(dnp no)
 		(uuid "92408b1f-a7f0-4537-b3c2-376c1ee32f4b")
 		(property "Reference" "R9"
-			(at 165.1 36.068 90)
+			(at 121.92 281.178 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1878,7 +2169,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 165.1 34.036 90)
+			(at 121.92 279.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1888,7 +2179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 165.1 31.75 0)
+			(at 121.92 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,8 +2189,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 31.75 0)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176338-3"
+			(at 121.92 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,8 +2200,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 31.75 0)
+		(property "Description" "RES 220 OHM 5% 1/10W 0603"
+			(at 121.92 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1920,8 +2211,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
-			(at 165.1 31.75 0)
+		(property "Digikey Part Number" "A130087CT-ND"
+			(at 121.92 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1931,8 +2222,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
-			(at 165.1 31.75 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603J220R/8576689"
+			(at 121.92 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1942,8 +2233,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 165.1 31.75 0)
+		(property "Manufacturer" "TE Connectivity Passive Product"
+			(at 121.92 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,8 +2244,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 165.1 31.75 0)
+		(property "Manufacturer Part Number" "CRGCQ0603J220R"
+			(at 121.92 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1980,91 +2271,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54C")
-		(at 194.31 26.67 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad36a6a2-1ba8-484e-b71f-df7e2fb0774e")
-		(property "Reference" "D3"
-			(at 189.738 20.066 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54C"
-			(at 189.738 22.352 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 192.405 29.845 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
-			(at 196.342 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "dual schottky barrier diode, common cathode"
-			(at 194.31 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "efd40c13-d45e-4b54-ad08-6c4d8bbb21a2")
-		)
-		(pin "2"
-			(uuid "a169594f-61a6-462b-8e23-0f3d4ba9a05c")
-		)
-		(pin "3"
-			(uuid "32540b81-26a5-4514-83bb-6d29fa36177a")
-		)
-		(instances
-			(project "vectornav-imu"
-				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 168.91 36.83 0)
+		(at 133.35 281.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2072,10 +2280,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e81593d9-1f03-4590-b2c1-97d42b6f38bf")
-		(property "Reference" "C4"
-			(at 171.45 35.5599 0)
+		(uuid "a25866b1-2b7c-493c-b251-78f5f96478f6")
+		(property "Reference" "C6"
+			(at 135.128 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2086,7 +2293,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 171.45 38.0999 0)
+			(at 135.128 283.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2097,7 +2304,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 168.91 36.83 0)
+			(at 133.35 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2107,8 +2314,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 168.91 36.83 0)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 133.35 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2118,8 +2325,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 168.91 46.99 0)
+		(property "Description" "CAP0603 X7R 1000PF 10% 50V"
+			(at 133.35 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2129,8 +2336,8 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
-			(at 168.91 36.83 0)
+		(property "Digikey Part Number" "4713-GMC10X7R102K50NTCT-ND"
+			(at 133.35 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2140,8 +2347,8 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
-			(at 168.91 36.83 0)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC10X7R102K50NT/25893232"
+			(at 133.35 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,8 +2358,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 168.91 36.83 0)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 133.35 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2162,8 +2369,133 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 168.91 36.83 0)
+		(property "Manufacturer Part Number" "GMC10X7R102K50NT"
+			(at 133.35 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7c1a5d8-63c3-4a9d-a56b-67b19edd69a5")
+		)
+		(pin "2"
+			(uuid "496d9a61-248d-492f-b514-bdc688ecc204")
+		)
+		(instances
+			(project "vectornav-imu"
+				(path "/e994741c-7c7d-4124-9d00-43b883baa61d"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 125.73 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b137faab-ccc2-41a8-bd29-59f9249b6f58")
+		(property "Reference" "C4"
+			(at 127.508 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 127.508 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 125.73 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 125.73 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP0603 X7R 1000PF 10% 50V"
+			(at 125.73 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "4713-GMC10X7R102K50NTCT-ND"
+			(at 125.73 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC10X7R102K50NT/25893232"
+			(at 125.73 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 125.73 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC10X7R102K50NT"
+			(at 125.73 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
