@@ -33,7 +33,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RELAY8_SMTGUL_TEC"
+		(property "Footprint" "formula_slug_footprint_library:RELAY_1-1462039-8"
 			(at 1.27 -0.254 0)
 			(show_name no)
 			(do_not_autoplace no)
