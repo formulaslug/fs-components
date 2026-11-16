@@ -25912,7 +25912,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "296-UCC256612DDBRCT-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25923,7 +25923,7 @@
 				)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/UCC256612DDBR/26769276?s=N4IgTCBcDa4JwDYC0BVAwmsBWBCCMYAIoQEIBKaAKkgHKEgC6AvkA"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25934,7 +25934,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25945,7 +25945,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "UCC256612DDBR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

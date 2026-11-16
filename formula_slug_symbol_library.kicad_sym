@@ -25593,7 +25593,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U4"
+		(property "Reference" "U"
 			(at 2.1433 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25857,7 +25857,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U1"
+		(property "Reference" "U"
 			(at 3.556 14.986 0)
 			(show_name no)
 			(do_not_autoplace no)
