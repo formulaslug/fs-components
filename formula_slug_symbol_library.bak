@@ -18176,9 +18176,9 @@
 		)
 		(symbol "NVMFWS1D3N04XMT1G_1_1"
 			(pin passive line
-				(at 2.54 5.08 270)
+				(at 2.54 -5.08 90)
 				(length 2.54)
-				(name "D"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -18193,10 +18193,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
+			(pin passive line
+				(at 2.54 -5.08 90)
 				(length 2.54)
-				(name "G"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -18222,6 +18222,42 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
